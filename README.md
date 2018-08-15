@@ -1,8 +1,8 @@
 # smk-bcparks
-A simple map for BC Parks (replacement for DMF)
+A simple map for BC Ministry of Health (replacement for DMF)
 
 # Installation
-BC Parks Simple map can be installed in 3 ways
+MOH Simple map can be installed in 3 ways
 1. deploying manually with any web server web folder e.g. Apache, IIS, NGINX
 2. deploying a Docker container
 3. deploying as replicaSet to OpenShift or kubernetes cluster
@@ -17,20 +17,20 @@ For small-scale production deployment or development, docker container will do f
 * git
 ### deployment
 ```
- $ git clone  https://github.com/bcgov/smk-bcparks.git .
- $ cp bcparks ${WWW_folder} 
+ $ git clone  https://github.com/bcgov/smk-moh.git .
+ $ cp <site> ${WWW_folder} 
 ``` 
 #### where ${WWW_folder} is the location served by your web server
 
 ## Deploying a Docker container
 ```
- $ git clone  https://github.com/bcgov/smk-bcparks.git
- $ cd smk-bcparks
- $ docker build -t bcparks .
- $ docker run -p 8080:8080 bcparks
+ $ git clone  https://github.com/bcgov/smk-moh.git
+ $ cd smk-moh
+ $ docker build -t moh .
+ $ docker run -p 8080:8080 moh
 ``` 
 ## Deploying as replicaSet to OpenShift
-``` $ oc new-app caddy-app-template~https://github.com/bcgov/smk-bcparks.git```
+``` $ oc new-app caddy-app-template~https://github.com/bcgov/smk-moh.git```
 
 ## License
 
