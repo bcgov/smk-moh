@@ -1,8 +1,8 @@
 0.0.0.0:8080 {
-git https://github.com/bcgov/smk-bcparks.git . {
+git https://github.com/bcgov/smk-moh.git . {
  hook /_webook mypassword
 }
-root /app/smk-bcparks/bcparks
+root /app/smk-moh/sites
 gzip
 log stdout
 errors stdout
