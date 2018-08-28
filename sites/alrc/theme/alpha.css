@@ -15,6 +15,18 @@
     background-color: rgba(227, 168, 43, 1);
 }
 
+.smk-theme-alpha .leaflet-popup-content {
+    max-width: 600px;
+    width: 400px;
+    min-width: 300px;
+    max-height: 250px;
+    color: #234075;
+    //background-color: gray;
+    keepInView: true;
+}
+
+.smk-theme-alpha.leaflet-popup-tip {
+        color: red;
 
 /* sidepanel.css */
 
