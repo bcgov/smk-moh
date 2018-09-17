@@ -1,0 +1,9 @@
+0.0.0.0:8080 {
+git https://github.com/bcgov/smk-moh.git /app/smk {
+ hook /_webook mypassword
+}
+root /app/smk/sites
+gzip
+log stdout
+errors stdout
+}
