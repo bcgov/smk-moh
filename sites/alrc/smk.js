@@ -413,7 +413,7 @@ if ( !window.include ) { ( function () {
 
 } )() }
 
-<<<<<<< HEAD
+//<<<<<<< HEAD
 
 if ( !window.include.SMK ) { ( function () {
 "use strict";
@@ -3233,7 +3233,7 @@ include.tag( "widgets",
 window.include.SMK = true
 } )() }
 
->>>>>>> 8a92046f32a5a10256aed51a128b5139e39cb685
+//>>>>>>> 8a92046f32a5a10256aed51a128b5139e39cb685
 ( function () {
     "use strict";
 
