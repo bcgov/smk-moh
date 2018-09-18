@@ -1,8 +1,8 @@
-<<<<<<< HEAD
+//<<<<<< HEAD
 // SMK
-=======
+//=======
 // SMK
->>>>>>> 8a92046f32a5a10256aed51a128b5139e39cb685
+//>>>>>>> 8a92046f32a5a10256aed51a128b5139e39cb685
 if ( !window.include ) { ( function () {
     "use strict";
 
