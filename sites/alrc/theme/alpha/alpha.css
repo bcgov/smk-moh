@@ -3,12 +3,15 @@
 .smk-theme-alpha .smk-toolbar  {
     background-color: transparent;
     box-shadow: none;
+    height:42px;
 }
 
 .smk-theme-alpha .smk-tool {
     border: 1px solid transparent;
     box-shadow: 0 1px 5px rgba(0, 0, 0, 0.65);
     background-color: white;
+    height: 42px;
+    width: 42px;
 }
 
 .smk-theme-alpha .smk-tool.smk-tool-active {
@@ -35,7 +38,7 @@
 /* sidepanel.css */
 
 .smk-theme-alpha .smk-sidepanel {
-    top: 30px;
+    top: 46px;
 }
 
 .smk-theme-alpha .smk-elastic-panel {
@@ -53,6 +56,8 @@
     z-index: 1;
     margin-bottom: 0;
 }
+
+
 
 .smk-theme-alpha .smk-sidepanel .smk-panel .smk-body {
     background-color: white;
@@ -88,4 +93,5 @@
 
 .smk-theme-alpha .material-icons {
     color: #234075;
+    font-size: 42px;
 }
