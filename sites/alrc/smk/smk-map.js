@@ -26,7 +26,7 @@ include.module( 'smk-map', [ 'jquery', 'util', 'theme-base' ], function () {
             .addClass( 'smk-map-frame smk-hidden' )
 
         var spinner = $( '<img class="smk-startup smk-spinner">' )
-            .attr( 'src', include.option( 'baseUrl' ) + '/images/spinner.gif' )
+            .attr( 'src', include.option( 'baseUrl' ) + 'images/spinner.gif' )
             .appendTo( this.$container )
 
         var status = $( '<div class="smk-startup smk-status">' )
@@ -125,7 +125,7 @@ include.module( 'smk-map', [ 'jquery', 'util', 'theme-base' ], function () {
                 if ( !merge.viewer ) return
 
                 if ( base.viewer ) {
-                    if ( base.viewer.location && merge.viewer.location ) {                        
+                    if ( base.viewer.location && merge.viewer.location ) {
                         Object.assign( base.viewer.location, merge.viewer.location )
                         delete merge.viewer.location
                     }
@@ -278,7 +278,7 @@ include.module( 'smk-map', [ 'jquery', 'util', 'theme-base' ], function () {
                 $( self.$option[ 'title-sel' ] ).text( self.name )
 
             var themes = [ 'base' ].concat( self.viewer.themes ).map( function ( th ) { return 'theme-' + th } )
-            
+
             $( self.$container )
                 .addClass( themes.map( function ( th ) { return 'smk-' + th } ).join( ' ' ) )
 
@@ -451,14 +451,14 @@ include.module( 'smk-map', [ 'jquery', 'util', 'theme-base' ], function () {
         }
 
         if ( dev == this.$device )
-            return 
+            return
 
         if ( this.$device )
             $( this.$container )
                 .removeClass( 'smk-device-' + this.$device )
 
         this.$device = dev
-        
+
         $( this.$container )
             .addClass( 'smk-device-' + this.$device )
 
