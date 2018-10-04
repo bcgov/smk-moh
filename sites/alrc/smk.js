@@ -1802,29 +1802,43 @@ window.include.SMK = true
 ( function () {
     "use strict";
 
-    var util = {}
-    installPolyfills( util )
-    setupGlobalSMK( util )
+    function isIE() {
+        return navigator.userAgent.indexOf( "MSIE " ) > -1 || navigator.userAgent.indexOf( "Trident/" ) > -1;
+    }
 
-    var documentReadyPromise
+    try {
+        if ( isIE() )
+            throw new Error( 'This map will not function in Internet Explorer 11. Please use a more modern browser such as Google Chrome, Microsoft Edge, Firefox, or Safari.' )
 
-    var bootstrapScriptEl = document.currentScript
+        var util = {}
+        installPolyfills( util )
+        setupGlobalSMK( util )
 
-    var timer
-    SMK.BOOT = SMK.BOOT
-        .then( parseScriptElement )
-        .then( function ( attr ) {
-            timer = 'SMK initialize ' + attr.id
-            console.time( timer )
-            return attr
+        var documentReadyPromise
+
+        var bootstrapScriptEl = document.currentScript
+
+        var timer
+        SMK.BOOT = SMK.BOOT
+            .then( parseScriptElement )
+            .then( function ( attr ) {
+                timer = 'SMK initialize ' + attr.id
+                console.time( timer )
+                return attr
+            } )
+            .then( resolveConfig )
+            .then( initializeSmkMap )
+            .catch( SMK.ON_FAILURE )
+
+        util.promiseFinally( SMK.BOOT, function () {
+            console.timeEnd( timer )
         } )
-        .then( resolveConfig )
-        .then( initializeSmkMap )
-        .catch( SMK.ON_FAILURE )
-
-    util.promiseFinally( SMK.BOOT, function () {
-        console.timeEnd( timer )
-    } )
+    }
+    catch ( e ) {
+        setTimeout( function () {
+            document.querySelector( 'body' ).appendChild( failureMessage( e ) )
+        }, 1000 )
+    }
 
 // = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
 
@@ -2477,6 +2491,43 @@ window.include.SMK = true
 
         }, window.SMK ) )
     }
+
+    function failureMessage( e ) {
+        if ( e.parseSource )
+            e.message += ',\n  while parsing ' + e.parseSource
+
+        console.error( e )
+
+        var message = document.createElement( 'div' )
+        message.innerHTML = '\
+            <div style="\
+                display:flex;\
+                flex-direction:column;\
+                justify-content:center;\
+                align-items:center;\
+                border: 5px solid red;\
+                padding: 20px;\
+                margin: 20px;\
+                position: absolute;\
+                top: 0;\
+                left: 0;\
+                right: 0;\
+                bottom: 0;\
+            ">\
+                <h1>SMK Client</h1>\
+                <h2>Initialization failed</h2>\
+                <pre style="white-space: normal">{}</pre>\
+            </div>\
+        '.replace( /\s+/g, ' ' ).replace( '{}', e || '' )
+
+        return message
+    }
+
+
+
+
+
+
 
 } )();
 
