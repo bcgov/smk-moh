@@ -19845,14 +19845,14 @@
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  [ -123.1463258,49.2060192 ]
+       "coordinates":  [ -123.8287358,48.9966463 ]
     },
     "properties": {
     "OPERATOR_NAME":"Oyster Harbour Seniors Community Partnership",
     "BUSINESS_NAME":"OYSTER HARBOUR SENIORS COMMUNITY",
     "TYPE":"Residential Care",
-    "STREET_ADDRESS":"1656 W 75th Ave",
-    "CITY":"Vancouver",
+    "STREET_ADDRESS":"1127 4th Ave",
+    "CITY":"Ladysmith",
     "POSTAL_CODE":"V9G 1A6",
     "BUSINESS_PHONE":"(250)245-3318",
     "INSPECTION_URL":"https://www.healthspace.ca/Clients/VIHA/VIHA_Website.nsf/CCFL-FacilityHistory?OpenView&RestrictToCategory=F553F7CD8725005D88257D5D0062AC3E",
