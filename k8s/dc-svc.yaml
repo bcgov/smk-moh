@@ -19,9 +19,9 @@ apiVersion: v1
 data:
   caddifile: |-
       0.0.0.0:8080 {
-      git https://github.com/bcgov/smk-moh /app/smk {
+      git {$siteRepo} /app/smk {
        branch {$branch}
-       hook /_webook mypassword
+       hook {$webhook} {$webhookPass}
       }
       root /app/smk/sites
       gzip
@@ -54,7 +54,16 @@ spec:
       - name: www
         env:
         - name: branch
-          value: 
+          value:
+		- name: siteRepo
+		  value:
+		- name: webhook
+		  value:
+		- name: webhookPass
+              valueFrom:
+                secretKeyRef:
+                  key: caddypass.webhook
+                  name: caddypasswh
         image: docker-registry.default.svc:5000/dbc-mapsdk-test/smk-base:latest
         command: ["caddy", "-quic", "-conf"]
         args: ["/conf/Caddyfile"]
