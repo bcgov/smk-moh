@@ -1,6 +1,6 @@
 # smk-moh
 A Simple Map (replacement for DMF) for BC Ministry of Health 
-1st app will be ‘alrc’ for Assisted Living and Residential Care map.
+1st app will be ‘alrc’ for Assisted Living and Residential Care map.  Test
 
 # Installation
 MOH Simple map can be installed in 3 ways
