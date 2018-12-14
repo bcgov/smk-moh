@@ -5,122 +5,6 @@
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  [ -118.4444218,49.0287782 ]
-    },
-    "properties": {
-    "OPERATOR_NAME":"Grand Forks and District Housing Society",
-    "BUSINESS_NAME":"Boundary Lodge Assisted Living",
-    "TYPE":"Assisted Living",
-    "STREET_ADDRESS":"7130 9th Street",
-    "CITY":"Grand Forks",
-    "POSTAL_CODE":"V0H 1H4",
-    "BUSINESS_PHONE":"(250) 443-0006",
-    "INSPECTION_URL":"http://www.health.gov.bc.ca/assisted/locator/index.php/displaycommunity/index",
-    "GOVERNING_ACT":"http://www.bclaws.ca/civix/document/id/complete/statreg/02075_01",
-    "GOVERNING_REGULATION":"",
-    "HEALTH_AUTHORITY":"Interior Health",
-    "MENTAL_HEALTH":"N",
-    "MENTAL_HEALTH_PUBLIC_UNITS":null,
-    "MENTAL_HEALTH_PRIVATE_PAY_UNITS":null,
-    "SENIOR_ASSISTED_LIVING":"Y",
-    "SENIOR_PUBLIC_UNITS":17,
-    "SENIOR_PRIVATE_PAY_UNITS":1,
-    "SUPPORTIVE_RECOVERY":"N",
-    "SUPPORTIVE_RECOVERY_PUBLIC_UNITS":null,
-    "SUPPORTIVE_RECOVERY_PRIVATE_PAY_UNITS":null
-    }
-  },
-  {
-    "type": "Feature",
-    "geometry": {
-       "type": "Point",
-       "coordinates":  [ -119.2618801,50.2812319 ]
-    },
-    "properties": {
-    "OPERATOR_NAME":"CHS Carrington Place Inc.",
-    "BUSINESS_NAME":"Carrington Place",
-    "TYPE":"Assisted Living",
-    "STREET_ADDRESS":"4651 - 4751 - 23rd Street",
-    "CITY":"Vernon",
-    "POSTAL_CODE":"V1T 4K7",
-    "BUSINESS_PHONE":"(250) 545-5704",
-    "INSPECTION_URL":"http://www.health.gov.bc.ca/assisted/locator/index.php/displaycommunity/index",
-    "GOVERNING_ACT":"http://www.bclaws.ca/civix/document/id/complete/statreg/02075_01",
-    "GOVERNING_REGULATION":"",
-    "HEALTH_AUTHORITY":"Interior Health",
-    "MENTAL_HEALTH":"N",
-    "MENTAL_HEALTH_PUBLIC_UNITS":null,
-    "MENTAL_HEALTH_PRIVATE_PAY_UNITS":null,
-    "SENIOR_ASSISTED_LIVING":"Y",
-    "SENIOR_PUBLIC_UNITS":0,
-    "SENIOR_PRIVATE_PAY_UNITS":55,
-    "SUPPORTIVE_RECOVERY":"N",
-    "SUPPORTIVE_RECOVERY_PUBLIC_UNITS":null,
-    "SUPPORTIVE_RECOVERY_PRIVATE_PAY_UNITS":null
-    }
-  },
-  {
-    "type": "Feature",
-    "geometry": {
-       "type": "Point",
-       "coordinates":  [ -123.0733402,49.3360817 ]
-    },
-    "properties": {
-    "OPERATOR_NAME":"Chartwell Seniors Housing REIT",
-    "BUSINESS_NAME":"Churchill House",
-    "TYPE":"Assisted Living",
-    "STREET_ADDRESS":"150 West 29th Street",
-    "CITY":"North Vancouver",
-    "POSTAL_CODE":"V7N 2J8",
-    "BUSINESS_PHONE":"(604) 904-1199",
-    "INSPECTION_URL":"http://www.health.gov.bc.ca/assisted/locator/index.php/displaycommunity/index",
-    "GOVERNING_ACT":"http://www.bclaws.ca/civix/document/id/complete/statreg/02075_01",
-    "GOVERNING_REGULATION":"",
-    "HEALTH_AUTHORITY":"Vancouver Coastal",
-    "MENTAL_HEALTH":"N",
-    "MENTAL_HEALTH_PUBLIC_UNITS":null,
-    "MENTAL_HEALTH_PRIVATE_PAY_UNITS":null,
-    "SENIOR_ASSISTED_LIVING":"Y",
-    "SENIOR_PUBLIC_UNITS":31,
-    "SENIOR_PRIVATE_PAY_UNITS":28,
-    "SUPPORTIVE_RECOVERY":"N",
-    "SUPPORTIVE_RECOVERY_PUBLIC_UNITS":null,
-    "SUPPORTIVE_RECOVERY_PRIVATE_PAY_UNITS":null
-    }
-  },
-  {
-    "type": "Feature",
-    "geometry": {
-       "type": "Point",
-       "coordinates":  [ -123.0554181,49.2255956 ]
-    },
-    "properties": {
-    "OPERATOR_NAME":"Baptist Housing Society of BC",
-    "BUSINESS_NAME":"Clarendon Court",
-    "TYPE":"Assisted Living",
-    "STREET_ADDRESS":"6404 Clarendon Street",
-    "CITY":"Vancouver",
-    "POSTAL_CODE":"V5S 4X9",
-    "BUSINESS_PHONE":"(604) 324-6230",
-    "INSPECTION_URL":"http://www.health.gov.bc.ca/assisted/locator/index.php/displaycommunity/index",
-    "GOVERNING_ACT":"http://www.bclaws.ca/civix/document/id/complete/statreg/02075_01",
-    "GOVERNING_REGULATION":"",
-    "HEALTH_AUTHORITY":"Vancouver Coastal",
-    "MENTAL_HEALTH":"N",
-    "MENTAL_HEALTH_PUBLIC_UNITS":null,
-    "MENTAL_HEALTH_PRIVATE_PAY_UNITS":null,
-    "SENIOR_ASSISTED_LIVING":"Y",
-    "SENIOR_PUBLIC_UNITS":56,
-    "SENIOR_PRIVATE_PAY_UNITS":3,
-    "SUPPORTIVE_RECOVERY":"N",
-    "SUPPORTIVE_RECOVERY_PUBLIC_UNITS":null,
-    "SUPPORTIVE_RECOVERY_PRIVATE_PAY_UNITS":null
-    }
-  },
-  {
-    "type": "Feature",
-    "geometry": {
-       "type": "Point",
        "coordinates":  [ -123.1558789,49.2476316 ]
     },
     "properties": {
@@ -344,6 +228,122 @@
     "SENIOR_ASSISTED_LIVING":"Y",
     "SENIOR_PUBLIC_UNITS":25,
     "SENIOR_PRIVATE_PAY_UNITS":0,
+    "SUPPORTIVE_RECOVERY":"N",
+    "SUPPORTIVE_RECOVERY_PUBLIC_UNITS":null,
+    "SUPPORTIVE_RECOVERY_PRIVATE_PAY_UNITS":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -118.4444218,49.0287782 ]
+    },
+    "properties": {
+    "OPERATOR_NAME":"Grand Forks and District Housing Society",
+    "BUSINESS_NAME":"Boundary Lodge Assisted Living",
+    "TYPE":"Assisted Living",
+    "STREET_ADDRESS":"7130 9th Street",
+    "CITY":"Grand Forks",
+    "POSTAL_CODE":"V0H 1H4",
+    "BUSINESS_PHONE":"(250) 443-0006",
+    "INSPECTION_URL":"http://www.health.gov.bc.ca/assisted/locator/index.php/displaycommunity/index",
+    "GOVERNING_ACT":"http://www.bclaws.ca/civix/document/id/complete/statreg/02075_01",
+    "GOVERNING_REGULATION":"",
+    "HEALTH_AUTHORITY":"Interior Health",
+    "MENTAL_HEALTH":"N",
+    "MENTAL_HEALTH_PUBLIC_UNITS":null,
+    "MENTAL_HEALTH_PRIVATE_PAY_UNITS":null,
+    "SENIOR_ASSISTED_LIVING":"Y",
+    "SENIOR_PUBLIC_UNITS":17,
+    "SENIOR_PRIVATE_PAY_UNITS":1,
+    "SUPPORTIVE_RECOVERY":"N",
+    "SUPPORTIVE_RECOVERY_PUBLIC_UNITS":null,
+    "SUPPORTIVE_RECOVERY_PRIVATE_PAY_UNITS":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -119.2618801,50.2812319 ]
+    },
+    "properties": {
+    "OPERATOR_NAME":"CHS Carrington Place Inc.",
+    "BUSINESS_NAME":"Carrington Place",
+    "TYPE":"Assisted Living",
+    "STREET_ADDRESS":"4651 - 4751 - 23rd Street",
+    "CITY":"Vernon",
+    "POSTAL_CODE":"V1T 4K7",
+    "BUSINESS_PHONE":"(250) 545-5704",
+    "INSPECTION_URL":"http://www.health.gov.bc.ca/assisted/locator/index.php/displaycommunity/index",
+    "GOVERNING_ACT":"http://www.bclaws.ca/civix/document/id/complete/statreg/02075_01",
+    "GOVERNING_REGULATION":"",
+    "HEALTH_AUTHORITY":"Interior Health",
+    "MENTAL_HEALTH":"N",
+    "MENTAL_HEALTH_PUBLIC_UNITS":null,
+    "MENTAL_HEALTH_PRIVATE_PAY_UNITS":null,
+    "SENIOR_ASSISTED_LIVING":"Y",
+    "SENIOR_PUBLIC_UNITS":0,
+    "SENIOR_PRIVATE_PAY_UNITS":55,
+    "SUPPORTIVE_RECOVERY":"N",
+    "SUPPORTIVE_RECOVERY_PUBLIC_UNITS":null,
+    "SUPPORTIVE_RECOVERY_PRIVATE_PAY_UNITS":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -123.0733402,49.3360817 ]
+    },
+    "properties": {
+    "OPERATOR_NAME":"Chartwell Seniors Housing REIT",
+    "BUSINESS_NAME":"Churchill House",
+    "TYPE":"Assisted Living",
+    "STREET_ADDRESS":"150 West 29th Street",
+    "CITY":"North Vancouver",
+    "POSTAL_CODE":"V7N 2J8",
+    "BUSINESS_PHONE":"(604) 904-1199",
+    "INSPECTION_URL":"http://www.health.gov.bc.ca/assisted/locator/index.php/displaycommunity/index",
+    "GOVERNING_ACT":"http://www.bclaws.ca/civix/document/id/complete/statreg/02075_01",
+    "GOVERNING_REGULATION":"",
+    "HEALTH_AUTHORITY":"Vancouver Coastal",
+    "MENTAL_HEALTH":"N",
+    "MENTAL_HEALTH_PUBLIC_UNITS":null,
+    "MENTAL_HEALTH_PRIVATE_PAY_UNITS":null,
+    "SENIOR_ASSISTED_LIVING":"Y",
+    "SENIOR_PUBLIC_UNITS":31,
+    "SENIOR_PRIVATE_PAY_UNITS":28,
+    "SUPPORTIVE_RECOVERY":"N",
+    "SUPPORTIVE_RECOVERY_PUBLIC_UNITS":null,
+    "SUPPORTIVE_RECOVERY_PRIVATE_PAY_UNITS":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -123.0554181,49.2255956 ]
+    },
+    "properties": {
+    "OPERATOR_NAME":"Baptist Housing Society of BC",
+    "BUSINESS_NAME":"Clarendon Court",
+    "TYPE":"Assisted Living",
+    "STREET_ADDRESS":"6404 Clarendon Street",
+    "CITY":"Vancouver",
+    "POSTAL_CODE":"V5S 4X9",
+    "BUSINESS_PHONE":"(604) 324-6230",
+    "INSPECTION_URL":"http://www.health.gov.bc.ca/assisted/locator/index.php/displaycommunity/index",
+    "GOVERNING_ACT":"http://www.bclaws.ca/civix/document/id/complete/statreg/02075_01",
+    "GOVERNING_REGULATION":"",
+    "HEALTH_AUTHORITY":"Vancouver Coastal",
+    "MENTAL_HEALTH":"N",
+    "MENTAL_HEALTH_PUBLIC_UNITS":null,
+    "MENTAL_HEALTH_PRIVATE_PAY_UNITS":null,
+    "SENIOR_ASSISTED_LIVING":"Y",
+    "SENIOR_PUBLIC_UNITS":56,
+    "SENIOR_PRIVATE_PAY_UNITS":3,
     "SUPPORTIVE_RECOVERY":"N",
     "SUPPORTIVE_RECOVERY_PUBLIC_UNITS":null,
     "SUPPORTIVE_RECOVERY_PRIVATE_PAY_UNITS":null
@@ -3949,6 +3949,35 @@
     "type": "Feature",
     "geometry": {
        "type": "Point",
+       "coordinates":  [ -119.4784911,49.8832462 ]
+    },
+    "properties": {
+    "OPERATOR_NAME":"John Howard Society of the Central and South Okanagan",
+    "BUSINESS_NAME":"1043 Harvey House",
+    "TYPE":"Assisted Living",
+    "STREET_ADDRESS":"1043 Harvey Ave",
+    "CITY":"Kelowna",
+    "POSTAL_CODE":"V1Y6E4",
+    "BUSINESS_PHONE":"(250) 717-0702",
+    "INSPECTION_URL":"http://www.health.gov.bc.ca/assisted/mentalhealth_locator/index.php/displaycommunity/index",
+    "GOVERNING_ACT":"http://www.bclaws.ca/civix/document/id/complete/statreg/02075_01",
+    "GOVERNING_REGULATION":"",
+    "HEALTH_AUTHORITY":"Fraser Health",
+    "MENTAL_HEALTH":"N",
+    "MENTAL_HEALTH_PUBLIC_UNITS":null,
+    "MENTAL_HEALTH_PRIVATE_PAY_UNITS":null,
+    "SENIOR_ASSISTED_LIVING":"N",
+    "SENIOR_PUBLIC_UNITS":null,
+    "SENIOR_PRIVATE_PAY_UNITS":null,
+    "SUPPORTIVE_RECOVERY":"Y",
+    "SUPPORTIVE_RECOVERY_PUBLIC_UNITS":0,
+    "SUPPORTIVE_RECOVERY_PRIVATE_PAY_UNITS":9
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
        "coordinates":  [ -123.0283132,49.34259 ]
     },
     "properties": {
@@ -6292,6 +6321,35 @@
     "SUPPORTIVE_RECOVERY":"Y",
     "SUPPORTIVE_RECOVERY_PUBLIC_UNITS":0,
     "SUPPORTIVE_RECOVERY_PRIVATE_PAY_UNITS":6
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.3463775,49.0511241 ]
+    },
+    "properties": {
+    "OPERATOR_NAME":"L.I.F.E. Recovery Association",
+    "BUSINESS_NAME":"LIFE Recovery Association - First Stage",
+    "TYPE":"Assisted Living",
+    "STREET_ADDRESS":"2693 Braeside Street",
+    "CITY":"Abbotsford",
+    "POSTAL_CODE":"V2T 2R5",
+    "BUSINESS_PHONE":"(604) 855-4440",
+    "INSPECTION_URL":"http://www.health.gov.bc.ca/assisted/mentalhealth_locator/index.php/displaycommunity/index",
+    "GOVERNING_ACT":"http://www.bclaws.ca/civix/document/id/complete/statreg/02075_01",
+    "GOVERNING_REGULATION":"",
+    "HEALTH_AUTHORITY":"Fraser Health",
+    "MENTAL_HEALTH":"N",
+    "MENTAL_HEALTH_PUBLIC_UNITS":null,
+    "MENTAL_HEALTH_PRIVATE_PAY_UNITS":null,
+    "SENIOR_ASSISTED_LIVING":"N",
+    "SENIOR_PUBLIC_UNITS":null,
+    "SENIOR_PRIVATE_PAY_UNITS":null,
+    "SUPPORTIVE_RECOVERY":"Y",
+    "SUPPORTIVE_RECOVERY_PUBLIC_UNITS":0,
+    "SUPPORTIVE_RECOVERY_PRIVATE_PAY_UNITS":9
     }
   },
   {
@@ -8763,6 +8821,35 @@
     "type": "Feature",
     "geometry": {
        "type": "Point",
+       "coordinates":  [ -119.4913599,49.8813771 ]
+    },
+    "properties": {
+    "OPERATOR_NAME":"Karis Support Society",
+    "BUSINESS_NAME":"Karis Support Society",
+    "TYPE":"Assisted Living",
+    "STREET_ADDRESS":"550 Rowcliffe Avenue",
+    "CITY":"Kelowna",
+    "POSTAL_CODE":"V1Y 5Y9",
+    "BUSINESS_PHONE":"250-860-9507",
+    "INSPECTION_URL":"http://www.health.gov.bc.ca/assisted/mentalhealth_locator/index.php/displaycommunity/index",
+    "GOVERNING_ACT":"http://www.bclaws.ca/civix/document/id/complete/statreg/02075_01",
+    "GOVERNING_REGULATION":"",
+    "HEALTH_AUTHORITY":"Interior Health",
+    "MENTAL_HEALTH":"N",
+    "MENTAL_HEALTH_PUBLIC_UNITS":null,
+    "MENTAL_HEALTH_PRIVATE_PAY_UNITS":null,
+    "SENIOR_ASSISTED_LIVING":"N",
+    "SENIOR_PUBLIC_UNITS":null,
+    "SENIOR_PRIVATE_PAY_UNITS":null,
+    "SUPPORTIVE_RECOVERY":"Y",
+    "SUPPORTIVE_RECOVERY_PUBLIC_UNITS":12,
+    "SUPPORTIVE_RECOVERY_PRIVATE_PAY_UNITS":0
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
        "coordinates":  [ -122.8541659,49.2090001 ]
     },
     "properties": {
@@ -9598,35 +9685,6 @@
     "SUPPORTIVE_RECOVERY":"Y",
     "SUPPORTIVE_RECOVERY_PUBLIC_UNITS":25,
     "SUPPORTIVE_RECOVERY_PRIVATE_PAY_UNITS":0
-    }
-  },
-  {
-    "type": "Feature",
-    "geometry": {
-       "type": "Point",
-       "coordinates":  [ -123.0831679,49.2409879 ]
-    },
-    "properties": {
-    "OPERATOR_NAME":"Chrysalis Drug & Alcohol Abuse Recovery Society",
-    "BUSINESS_NAME":"New Day Recovery Home for Women",
-    "TYPE":"Assisted Living",
-    "STREET_ADDRESS":"4851 Elgin St.",
-    "CITY":"Vancouver",
-    "POSTAL_CODE":"V5V4S2",
-    "BUSINESS_PHONE":"",
-    "INSPECTION_URL":"http://www.health.gov.bc.ca/assisted/mentalhealth_locator/index.php/displaycommunity/index",
-    "GOVERNING_ACT":"http://www.bclaws.ca/civix/document/id/complete/statreg/02075_01",
-    "GOVERNING_REGULATION":"",
-    "HEALTH_AUTHORITY":"Vancouver Coastal",
-    "MENTAL_HEALTH":"N",
-    "MENTAL_HEALTH_PUBLIC_UNITS":null,
-    "MENTAL_HEALTH_PRIVATE_PAY_UNITS":null,
-    "SENIOR_ASSISTED_LIVING":"N",
-    "SENIOR_PUBLIC_UNITS":null,
-    "SENIOR_PRIVATE_PAY_UNITS":null,
-    "SUPPORTIVE_RECOVERY":"Y",
-    "SUPPORTIVE_RECOVERY_PUBLIC_UNITS":0,
-    "SUPPORTIVE_RECOVERY_PRIVATE_PAY_UNITS":5
     }
   },
   {
