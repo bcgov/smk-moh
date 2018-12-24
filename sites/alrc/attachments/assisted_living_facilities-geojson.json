@@ -4181,7 +4181,7 @@
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  [ -115.9874882,49.6909703 ]
+       "coordinates":  [ -115.9872666,49.6907045 ]
     },
     "properties": {
     "OPERATOR_NAME":"Golden Life Management Corp.",
@@ -4848,7 +4848,7 @@
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  [ -122.7527993,53.9056385 ]
+       "coordinates":  [ -122.7526025,53.9055033 ]
     },
     "properties": {
     "OPERATOR_NAME":"Northern Health Authority",
@@ -5847,7 +5847,7 @@
     "INSPECTION_URL":"http://www.health.gov.bc.ca/assisted/mentalhealth_locator/index.php/displaycommunity/index",
     "GOVERNING_ACT":"http://www.bclaws.ca/civix/document/id/complete/statreg/02075_01",
     "GOVERNING_REGULATION":"",
-    "HEALTH_AUTHORITY":"Fraser Health",
+    "HEALTH_AUTHORITY":"Island Health",
     "MENTAL_HEALTH":"N",
     "MENTAL_HEALTH_PUBLIC_UNITS":null,
     "MENTAL_HEALTH_PRIVATE_PAY_UNITS":null,
@@ -5944,6 +5944,35 @@
     "SUPPORTIVE_RECOVERY":"Y",
     "SUPPORTIVE_RECOVERY_PUBLIC_UNITS":0,
     "SUPPORTIVE_RECOVERY_PRIVATE_PAY_UNITS":5
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.3214198,49.049235 ]
+    },
+    "properties": {
+    "OPERATOR_NAME":"Yahweh Saves Recovery Ministry",
+    "BUSINESS_NAME":"Joshua House - Rossland",
+    "TYPE":"Assisted Living",
+    "STREET_ADDRESS":"32575 Rossland Pl",
+    "CITY":"Abbotsford",
+    "POSTAL_CODE":"V2T 3S8",
+    "BUSINESS_PHONE":"(604) 556-7390",
+    "INSPECTION_URL":"http://www.health.gov.bc.ca/assisted/mentalhealth_locator/index.php/displaycommunity/index",
+    "GOVERNING_ACT":"http://www.bclaws.ca/civix/document/id/complete/statreg/02075_01",
+    "GOVERNING_REGULATION":"",
+    "HEALTH_AUTHORITY":"Fraser Health",
+    "MENTAL_HEALTH":"N",
+    "MENTAL_HEALTH_PUBLIC_UNITS":null,
+    "MENTAL_HEALTH_PRIVATE_PAY_UNITS":null,
+    "SENIOR_ASSISTED_LIVING":"N",
+    "SENIOR_PUBLIC_UNITS":null,
+    "SENIOR_PRIVATE_PAY_UNITS":null,
+    "SUPPORTIVE_RECOVERY":"Y",
+    "SUPPORTIVE_RECOVERY_PUBLIC_UNITS":0,
+    "SUPPORTIVE_RECOVERY_PRIVATE_PAY_UNITS":7
     }
   },
   {
@@ -6495,6 +6524,64 @@
     "SUPPORTIVE_RECOVERY":"Y",
     "SUPPORTIVE_RECOVERY_PUBLIC_UNITS":0,
     "SUPPORTIVE_RECOVERY_PRIVATE_PAY_UNITS":8
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.3388772,49.0539427 ]
+    },
+    "properties": {
+    "OPERATOR_NAME":"Yahweh Saves Recovery Ministry",
+    "BUSINESS_NAME":"Joshua House - Hopedale",
+    "TYPE":"Assisted Living",
+    "STREET_ADDRESS":"31962 Hopedale Ave",
+    "CITY":"Abbotsford",
+    "POSTAL_CODE":"V2T 2G7",
+    "BUSINESS_PHONE":"(604) 504-0477",
+    "INSPECTION_URL":"http://www.health.gov.bc.ca/assisted/mentalhealth_locator/index.php/displaycommunity/index",
+    "GOVERNING_ACT":"http://www.bclaws.ca/civix/document/id/complete/statreg/02075_01",
+    "GOVERNING_REGULATION":"",
+    "HEALTH_AUTHORITY":"Fraser Health",
+    "MENTAL_HEALTH":"N",
+    "MENTAL_HEALTH_PUBLIC_UNITS":null,
+    "MENTAL_HEALTH_PRIVATE_PAY_UNITS":null,
+    "SENIOR_ASSISTED_LIVING":"N",
+    "SENIOR_PUBLIC_UNITS":null,
+    "SENIOR_PRIVATE_PAY_UNITS":null,
+    "SUPPORTIVE_RECOVERY":"Y",
+    "SUPPORTIVE_RECOVERY_PUBLIC_UNITS":0,
+    "SUPPORTIVE_RECOVERY_PRIVATE_PAY_UNITS":5
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.3525867,49.0520294 ]
+    },
+    "properties": {
+    "OPERATOR_NAME":"Yahweh Saves Recovery Ministry",
+    "BUSINESS_NAME":"Joshua House - Springhill",
+    "TYPE":"Assisted Living",
+    "STREET_ADDRESS":"2742 Springhill Street",
+    "CITY":"Abbotsford",
+    "POSTAL_CODE":"V2T3V9",
+    "BUSINESS_PHONE":"(604) 851-2138",
+    "INSPECTION_URL":"http://www.health.gov.bc.ca/assisted/mentalhealth_locator/index.php/displaycommunity/index",
+    "GOVERNING_ACT":"http://www.bclaws.ca/civix/document/id/complete/statreg/02075_01",
+    "GOVERNING_REGULATION":"",
+    "HEALTH_AUTHORITY":"Fraser Health",
+    "MENTAL_HEALTH":"N",
+    "MENTAL_HEALTH_PUBLIC_UNITS":null,
+    "MENTAL_HEALTH_PRIVATE_PAY_UNITS":null,
+    "SENIOR_ASSISTED_LIVING":"N",
+    "SENIOR_PUBLIC_UNITS":null,
+    "SENIOR_PRIVATE_PAY_UNITS":null,
+    "SUPPORTIVE_RECOVERY":"Y",
+    "SUPPORTIVE_RECOVERY_PUBLIC_UNITS":0,
+    "SUPPORTIVE_RECOVERY_PRIVATE_PAY_UNITS":5
     }
   },
   {
@@ -8830,7 +8917,7 @@
     "STREET_ADDRESS":"550 Rowcliffe Avenue",
     "CITY":"Kelowna",
     "POSTAL_CODE":"V1Y 5Y9",
-    "BUSINESS_PHONE":"250-860-9507",
+    "BUSINESS_PHONE":"(250) 860-9507",
     "INSPECTION_URL":"http://www.health.gov.bc.ca/assisted/mentalhealth_locator/index.php/displaycommunity/index",
     "GOVERNING_ACT":"http://www.bclaws.ca/civix/document/id/complete/statreg/02075_01",
     "GOVERNING_REGULATION":"",
@@ -9178,7 +9265,7 @@
     "STREET_ADDRESS":"9101 Prince Charles Blvd",
     "CITY":"Surrey",
     "POSTAL_CODE":"V3V 1R9",
-    "BUSINESS_PHONE":"778-888-7617",
+    "BUSINESS_PHONE":"(778) 888-7617",
     "INSPECTION_URL":"http://www.health.gov.bc.ca/assisted/mentalhealth_locator/index.php/displaycommunity/index",
     "GOVERNING_ACT":"http://www.bclaws.ca/civix/document/id/complete/statreg/02075_01",
     "GOVERNING_REGULATION":"",
@@ -9671,7 +9758,7 @@
     "STREET_ADDRESS":"94 Talcott Rd",
     "CITY":"View Royal",
     "POSTAL_CODE":"V9B 6L9",
-    "BUSINESS_PHONE":"250-388-7112",
+    "BUSINESS_PHONE":"(250) 388-7112",
     "INSPECTION_URL":"http://www.health.gov.bc.ca/assisted/mentalhealth_locator/index.php/displaycommunity/index",
     "GOVERNING_ACT":"http://www.bclaws.ca/civix/document/id/complete/statreg/02075_01",
     "GOVERNING_REGULATION":"",
@@ -9830,6 +9917,35 @@
     "SUPPORTIVE_RECOVERY":"Y",
     "SUPPORTIVE_RECOVERY_PUBLIC_UNITS":0,
     "SUPPORTIVE_RECOVERY_PRIVATE_PAY_UNITS":6
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -121.5527538,49.1006692 ]
+    },
+    "properties": {
+    "OPERATOR_NAME":"Yahweh Saves Recovery Ministry",
+    "BUSINESS_NAME":"Joshua House - Chilliwack",
+    "TYPE":"Assisted Living",
+    "STREET_ADDRESS":"60550 Chilliwack Lake Rd",
+    "CITY":"Chilliwack",
+    "POSTAL_CODE":"V4Z 1A7",
+    "BUSINESS_PHONE":"(604) 847-3149",
+    "INSPECTION_URL":"http://www.health.gov.bc.ca/assisted/mentalhealth_locator/index.php/displaycommunity/index",
+    "GOVERNING_ACT":"http://www.bclaws.ca/civix/document/id/complete/statreg/02075_01",
+    "GOVERNING_REGULATION":"",
+    "HEALTH_AUTHORITY":"Fraser Health",
+    "MENTAL_HEALTH":"N",
+    "MENTAL_HEALTH_PUBLIC_UNITS":null,
+    "MENTAL_HEALTH_PRIVATE_PAY_UNITS":null,
+    "SENIOR_ASSISTED_LIVING":"N",
+    "SENIOR_PUBLIC_UNITS":null,
+    "SENIOR_PRIVATE_PAY_UNITS":null,
+    "SUPPORTIVE_RECOVERY":"Y",
+    "SUPPORTIVE_RECOVERY_PUBLIC_UNITS":0,
+    "SUPPORTIVE_RECOVERY_PRIVATE_PAY_UNITS":34
     }
   },
   {
