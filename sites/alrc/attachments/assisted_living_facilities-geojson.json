@@ -5,122 +5,6 @@
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  [ -123.1558789,49.2476316 ]
-    },
-    "properties": {
-    "OPERATOR_NAME":"Amica Mature Lifestyles Inc.",
-    "BUSINESS_NAME":"Amica at Arbutus Manor",
-    "TYPE":"Assisted Living",
-    "STREET_ADDRESS":"2125 Eddington Drive",
-    "CITY":"Vancouver",
-    "POSTAL_CODE":"V6L 3A9",
-    "BUSINESS_PHONE":"(604) 736-8936",
-    "INSPECTION_URL":"http://www.health.gov.bc.ca/assisted/locator/index.php/displaycommunity/index",
-    "GOVERNING_ACT":"Community Care and Assisted Living Act",
-    "GOVERNING_REGULATION":"",
-    "HEALTH_AUTHORITY":"Vancouver Coastal",
-    "MENTAL_HEALTH":"N",
-    "MENTAL_HEALTH_PUBLIC_UNITS":null,
-    "MENTAL_HEALTH_PRIVATE_PAY_UNITS":null,
-    "SENIOR_ASSISTED_LIVING":"Y",
-    "SENIOR_PUBLIC_UNITS":0,
-    "SENIOR_PRIVATE_PAY_UNITS":60,
-    "SUPPORTIVE_RECOVERY":"N",
-    "SUPPORTIVE_RECOVERY_PUBLIC_UNITS":null,
-    "SUPPORTIVE_RECOVERY_PRIVATE_PAY_UNITS":null
-    }
-  },
-  {
-    "type": "Feature",
-    "geometry": {
-       "type": "Point",
-       "coordinates":  [ -123.3762578,48.411872 ]
-    },
-    "properties": {
-    "OPERATOR_NAME":"Amica Mature Lifestyles Inc.",
-    "BUSINESS_NAME":"Amica at Somerset House",
-    "TYPE":"Assisted Living",
-    "STREET_ADDRESS":"540 Dallas Road",
-    "CITY":"Victoria",
-    "POSTAL_CODE":"V8V 4X9",
-    "BUSINESS_PHONE":"(250) 380-9121",
-    "INSPECTION_URL":"http://www.health.gov.bc.ca/assisted/locator/index.php/displaycommunity/index",
-    "GOVERNING_ACT":"Community Care and Assisted Living Act",
-    "GOVERNING_REGULATION":"",
-    "HEALTH_AUTHORITY":"Island Health",
-    "MENTAL_HEALTH":"N",
-    "MENTAL_HEALTH_PUBLIC_UNITS":null,
-    "MENTAL_HEALTH_PRIVATE_PAY_UNITS":null,
-    "SENIOR_ASSISTED_LIVING":"Y",
-    "SENIOR_PUBLIC_UNITS":0,
-    "SENIOR_PRIVATE_PAY_UNITS":50,
-    "SUPPORTIVE_RECOVERY":"N",
-    "SUPPORTIVE_RECOVERY_PUBLIC_UNITS":null,
-    "SUPPORTIVE_RECOVERY_PRIVATE_PAY_UNITS":null
-    }
-  },
-  {
-    "type": "Feature",
-    "geometry": {
-       "type": "Point",
-       "coordinates":  [ -123.1332044,49.3285716 ]
-    },
-    "properties": {
-    "OPERATOR_NAME":"Amica Mature Lifestyles Inc.",
-    "BUSINESS_NAME":"Amica at West Vancouver",
-    "TYPE":"Assisted Living",
-    "STREET_ADDRESS":"659 Clyde Avenue",
-    "CITY":"West Vancouver",
-    "POSTAL_CODE":"V7T 1C8",
-    "BUSINESS_PHONE":"(604) 921-9181",
-    "INSPECTION_URL":"http://www.health.gov.bc.ca/assisted/locator/index.php/displaycommunity/index",
-    "GOVERNING_ACT":"Community Care and Assisted Living Act",
-    "GOVERNING_REGULATION":"",
-    "HEALTH_AUTHORITY":"Vancouver Coastal",
-    "MENTAL_HEALTH":"N",
-    "MENTAL_HEALTH_PUBLIC_UNITS":null,
-    "MENTAL_HEALTH_PRIVATE_PAY_UNITS":null,
-    "SENIOR_ASSISTED_LIVING":"Y",
-    "SENIOR_PUBLIC_UNITS":0,
-    "SENIOR_PRIVATE_PAY_UNITS":87,
-    "SUPPORTIVE_RECOVERY":"N",
-    "SUPPORTIVE_RECOVERY_PUBLIC_UNITS":null,
-    "SUPPORTIVE_RECOVERY_PRIVATE_PAY_UNITS":null
-    }
-  },
-  {
-    "type": "Feature",
-    "geometry": {
-       "type": "Point",
-       "coordinates":  [ -123.0769909,49.0730448 ]
-    },
-    "properties": {
-    "OPERATOR_NAME":"Augustine House Society",
-    "BUSINESS_NAME":"Augustine House",
-    "TYPE":"Assisted Living",
-    "STREET_ADDRESS":"3820 Arthur Drive",
-    "CITY":"Delta",
-    "POSTAL_CODE":"V4K 5E6",
-    "BUSINESS_PHONE":"(604) 940-6005",
-    "INSPECTION_URL":"http://www.health.gov.bc.ca/assisted/locator/index.php/displaycommunity/index",
-    "GOVERNING_ACT":"Community Care and Assisted Living Act",
-    "GOVERNING_REGULATION":"",
-    "HEALTH_AUTHORITY":"Fraser Health",
-    "MENTAL_HEALTH":"N",
-    "MENTAL_HEALTH_PUBLIC_UNITS":null,
-    "MENTAL_HEALTH_PRIVATE_PAY_UNITS":null,
-    "SENIOR_ASSISTED_LIVING":"Y",
-    "SENIOR_PUBLIC_UNITS":20,
-    "SENIOR_PRIVATE_PAY_UNITS":55,
-    "SUPPORTIVE_RECOVERY":"N",
-    "SUPPORTIVE_RECOVERY_PUBLIC_UNITS":null,
-    "SUPPORTIVE_RECOVERY_PRIVATE_PAY_UNITS":null
-    }
-  },
-  {
-    "type": "Feature",
-    "geometry": {
-       "type": "Point",
        "coordinates":  [ -119.3828751,49.8989708 ]
     },
     "properties": {
@@ -228,6 +112,122 @@
     "SENIOR_ASSISTED_LIVING":"Y",
     "SENIOR_PUBLIC_UNITS":25,
     "SENIOR_PRIVATE_PAY_UNITS":0,
+    "SUPPORTIVE_RECOVERY":"N",
+    "SUPPORTIVE_RECOVERY_PUBLIC_UNITS":null,
+    "SUPPORTIVE_RECOVERY_PRIVATE_PAY_UNITS":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -123.1558789,49.2476316 ]
+    },
+    "properties": {
+    "OPERATOR_NAME":"Amica Arbutus Manor Inc.",
+    "BUSINESS_NAME":"Amica Arbutus Manor",
+    "TYPE":"Assisted Living",
+    "STREET_ADDRESS":"2125 Eddington Drive",
+    "CITY":"Vancouver",
+    "POSTAL_CODE":"V6L 3A9",
+    "BUSINESS_PHONE":"(604) 736-8936",
+    "INSPECTION_URL":"http://www.health.gov.bc.ca/assisted/locator/index.php/displaycommunity/index",
+    "GOVERNING_ACT":"Community Care and Assisted Living Act",
+    "GOVERNING_REGULATION":"",
+    "HEALTH_AUTHORITY":"Vancouver Coastal",
+    "MENTAL_HEALTH":"N",
+    "MENTAL_HEALTH_PUBLIC_UNITS":null,
+    "MENTAL_HEALTH_PRIVATE_PAY_UNITS":null,
+    "SENIOR_ASSISTED_LIVING":"Y",
+    "SENIOR_PUBLIC_UNITS":0,
+    "SENIOR_PRIVATE_PAY_UNITS":60,
+    "SUPPORTIVE_RECOVERY":"N",
+    "SUPPORTIVE_RECOVERY_PUBLIC_UNITS":null,
+    "SUPPORTIVE_RECOVERY_PRIVATE_PAY_UNITS":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -123.3762578,48.411872 ]
+    },
+    "properties": {
+    "OPERATOR_NAME":"Amica Somerset House Inc.",
+    "BUSINESS_NAME":"Amica Somerset House",
+    "TYPE":"Assisted Living",
+    "STREET_ADDRESS":"540 Dallas Road",
+    "CITY":"Victoria",
+    "POSTAL_CODE":"V8V 4X9",
+    "BUSINESS_PHONE":"(250) 380-9121",
+    "INSPECTION_URL":"http://www.health.gov.bc.ca/assisted/locator/index.php/displaycommunity/index",
+    "GOVERNING_ACT":"Community Care and Assisted Living Act",
+    "GOVERNING_REGULATION":"",
+    "HEALTH_AUTHORITY":"Island Health",
+    "MENTAL_HEALTH":"N",
+    "MENTAL_HEALTH_PUBLIC_UNITS":null,
+    "MENTAL_HEALTH_PRIVATE_PAY_UNITS":null,
+    "SENIOR_ASSISTED_LIVING":"Y",
+    "SENIOR_PUBLIC_UNITS":0,
+    "SENIOR_PRIVATE_PAY_UNITS":50,
+    "SUPPORTIVE_RECOVERY":"N",
+    "SUPPORTIVE_RECOVERY_PUBLIC_UNITS":null,
+    "SUPPORTIVE_RECOVERY_PRIVATE_PAY_UNITS":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -123.1332044,49.3285716 ]
+    },
+    "properties": {
+    "OPERATOR_NAME":"Amica West Vancouver Inc.",
+    "BUSINESS_NAME":"Amica West Vancouver",
+    "TYPE":"Assisted Living",
+    "STREET_ADDRESS":"659 Clyde Avenue",
+    "CITY":"West Vancouver",
+    "POSTAL_CODE":"V7T 1C8",
+    "BUSINESS_PHONE":"(604) 921-9181",
+    "INSPECTION_URL":"http://www.health.gov.bc.ca/assisted/locator/index.php/displaycommunity/index",
+    "GOVERNING_ACT":"Community Care and Assisted Living Act",
+    "GOVERNING_REGULATION":"",
+    "HEALTH_AUTHORITY":"Vancouver Coastal",
+    "MENTAL_HEALTH":"N",
+    "MENTAL_HEALTH_PUBLIC_UNITS":null,
+    "MENTAL_HEALTH_PRIVATE_PAY_UNITS":null,
+    "SENIOR_ASSISTED_LIVING":"Y",
+    "SENIOR_PUBLIC_UNITS":0,
+    "SENIOR_PRIVATE_PAY_UNITS":87,
+    "SUPPORTIVE_RECOVERY":"N",
+    "SUPPORTIVE_RECOVERY_PUBLIC_UNITS":null,
+    "SUPPORTIVE_RECOVERY_PRIVATE_PAY_UNITS":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -123.0769909,49.0730448 ]
+    },
+    "properties": {
+    "OPERATOR_NAME":"Augustine House Society",
+    "BUSINESS_NAME":"Augustine House",
+    "TYPE":"Assisted Living",
+    "STREET_ADDRESS":"3820 Arthur Drive",
+    "CITY":"Delta",
+    "POSTAL_CODE":"V4K 5E6",
+    "BUSINESS_PHONE":"(604) 940-6005",
+    "INSPECTION_URL":"http://www.health.gov.bc.ca/assisted/locator/index.php/displaycommunity/index",
+    "GOVERNING_ACT":"Community Care and Assisted Living Act",
+    "GOVERNING_REGULATION":"",
+    "HEALTH_AUTHORITY":"Fraser Health",
+    "MENTAL_HEALTH":"N",
+    "MENTAL_HEALTH_PUBLIC_UNITS":null,
+    "MENTAL_HEALTH_PRIVATE_PAY_UNITS":null,
+    "SENIOR_ASSISTED_LIVING":"Y",
+    "SENIOR_PUBLIC_UNITS":20,
+    "SENIOR_PRIVATE_PAY_UNITS":55,
     "SUPPORTIVE_RECOVERY":"N",
     "SUPPORTIVE_RECOVERY_PUBLIC_UNITS":null,
     "SUPPORTIVE_RECOVERY_PRIVATE_PAY_UNITS":null
@@ -353,7 +353,7 @@
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  [ -124.3236289,49.3165201 ]
+       "coordinates":  [ -124.3236176,49.3159185 ]
     },
     "properties": {
     "OPERATOR_NAME":"Arrowsmith Health Care (2011) Society",
@@ -446,7 +446,7 @@
     "OPERATOR_NAME":"608698 BC Ltd. dba Harmony Living for Seniors",
     "BUSINESS_NAME":"Harmony Living for Seniors - Kelowna",
     "TYPE":"Assisted Living",
-    "STREET_ADDRESS":"962  Laurier Avenue",
+    "STREET_ADDRESS":"962 Laurier Avenue",
     "CITY":"Kelowna",
     "POSTAL_CODE":"V1Y 6B1",
     "BUSINESS_PHONE":"(250) 861-3991",
@@ -1464,7 +1464,7 @@
     "STREET_ADDRESS":"55 Cokato Road",
     "CITY":"Fernie",
     "POSTAL_CODE":"V0B 1M4",
-    "BUSINESS_PHONE":"(250) 417-7232",
+    "BUSINESS_PHONE":"(250) 423-4214",
     "INSPECTION_URL":"http://www.health.gov.bc.ca/assisted/locator/index.php/displaycommunity/index",
     "GOVERNING_ACT":"Community Care and Assisted Living Act",
     "GOVERNING_REGULATION":"",
@@ -1513,7 +1513,7 @@
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  [ -122.6602354,49.1662545 ]
+       "coordinates":  [ -122.6609691,49.1663494 ]
     },
     "properties": {
     "OPERATOR_NAME":"Chartwell Seniors Housing REIT",
@@ -1577,7 +1577,7 @@
     "OPERATOR_NAME":"HCN-Revera Lessee (Fleetwood Villa) LP GP Inc. o/a Fleetwood Villa",
     "BUSINESS_NAME":"Fleetwood Villa",
     "TYPE":"Assisted Living",
-    "STREET_ADDRESS":"16028  83rd Avenue",
+    "STREET_ADDRESS":"16028 83rd Avenue",
     "CITY":"Surrey",
     "POSTAL_CODE":"V4N 0N2",
     "BUSINESS_PHONE":"(604) 590-2889",
@@ -2035,7 +2035,7 @@
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  [ -115.7460108,49.5268727 ]
+       "coordinates":  [ -115.7470729,49.5273009 ]
     },
     "properties": {
     "OPERATOR_NAME":"Golden Life Management Corp.",
@@ -2882,7 +2882,7 @@
     "OPERATOR_NAME":"Northern Health Authority",
     "BUSINESS_NAME":"Heritage Manor II",
     "TYPE":"Assisted Living",
-    "STREET_ADDRESS":"9824  106th Avenue",
+    "STREET_ADDRESS":"9824 106th Avenue",
     "CITY":"Fort Saint John",
     "POSTAL_CODE":"V1J 2N9",
     "BUSINESS_PHONE":"(250) 787-2376",
@@ -3053,8 +3053,8 @@
        "coordinates":  [ -123.4038671,48.6544551 ]
     },
     "properties": {
-    "OPERATOR_NAME":"Amica Mature Lifestyles Inc.",
-    "BUSINESS_NAME":"Amica at Beechwood Village",
+    "OPERATOR_NAME":"Amica Beechwood Village Inc.",
+    "BUSINESS_NAME":"Amica Beechwood Village",
     "TYPE":"Assisted Living",
     "STREET_ADDRESS":"2315 Mills Road",
     "CITY":"Sidney",
@@ -3083,7 +3083,7 @@
     },
     "properties": {
     "OPERATOR_NAME":"Amica Mature Lifestyles Inc.",
-    "BUSINESS_NAME":"Amica at Douglas House",
+    "BUSINESS_NAME":"Amica Douglas House",
     "TYPE":"Assisted Living",
     "STREET_ADDRESS":"50 Douglas Street",
     "CITY":"Victoria",
@@ -4535,7 +4535,7 @@
     "OPERATOR_NAME":"Strive Living Society",
     "BUSINESS_NAME":"Freedom Place",
     "TYPE":"Assisted Living",
-    "STREET_ADDRESS":"10342  148th Street",
+    "STREET_ADDRESS":"10342 148th Street",
     "CITY":"Surrey",
     "POSTAL_CODE":"V3R 3X3",
     "BUSINESS_PHONE":"(604) 634-3300",
@@ -4564,7 +4564,7 @@
     "OPERATOR_NAME":"Wagner Hills Farm Society",
     "BUSINESS_NAME":"Wagner Hills Farm",
     "TYPE":"Assisted Living",
-    "STREET_ADDRESS":"8061  264th Street",
+    "STREET_ADDRESS":"8061 264th Street",
     "CITY":"Langley",
     "POSTAL_CODE":"V1M 3M3",
     "BUSINESS_PHONE":"(604) 856-9432",
@@ -4616,7 +4616,7 @@
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  [ -132.1582908,54.0203207 ]
+       "coordinates":  [ -132.1581935,54.0203642 ]
     },
     "properties": {
     "OPERATOR_NAME":"Northern Health Authority",
@@ -4651,7 +4651,7 @@
     "OPERATOR_NAME":"Dawson Creek Society for Community Living",
     "BUSINESS_NAME":"Northview",
     "TYPE":"Assisted Living",
-    "STREET_ADDRESS":"1125 -  90th Avenue",
+    "STREET_ADDRESS":"1125 - 90th Avenue",
     "CITY":"Dawson Creek",
     "POSTAL_CODE":"V1G 5A3",
     "BUSINESS_PHONE":"(250) 719-0072",
@@ -4883,7 +4883,7 @@
     "OPERATOR_NAME":"Harrison Pointe Inc.",
     "BUSINESS_NAME":"Harrison Pointe",
     "TYPE":"Assisted Living",
-    "STREET_ADDRESS":"21616  52nd Avenue",
+    "STREET_ADDRESS":"21616 52nd Avenue",
     "CITY":"Langley",
     "POSTAL_CODE":"V2Y 1L7",
     "BUSINESS_PHONE":"(604) 530-1101",
@@ -4939,7 +4939,7 @@
     },
     "properties": {
     "OPERATOR_NAME":"Turning Points Collaborative Society",
-    "BUSINESS_NAME":"Howard House Addictions Recovery  Program",
+    "BUSINESS_NAME":"Howard House Addictions Recovery Program",
     "TYPE":"Assisted Living",
     "STREET_ADDRESS":"2307-43rd St.",
     "CITY":"Vernon",
@@ -5315,7 +5315,7 @@
        "coordinates":  [ -122.7128453,49.1151396 ]
     },
     "properties": {
-    "OPERATOR_NAME":"Maria Rosario de Vera Martinez  (Rose)",
+    "OPERATOR_NAME":"Maria Rosario de Vera Martinez (Rose)",
     "BUSINESS_NAME":"Clover Heights Retirement Home",
     "TYPE":"Assisted Living",
     "STREET_ADDRESS":"6209 - 184th Street",
@@ -8303,7 +8303,7 @@
     },
     "properties": {
     "OPERATOR_NAME":"BayBridge Senior Living Inc.",
-    "BUSINESS_NAME":"Amica at Edgemont Village",
+    "BUSINESS_NAME":"Amica Edgemont Village",
     "TYPE":"Assisted Living",
     "STREET_ADDRESS":"3225 Highland Blvd",
     "CITY":"North Vancouver",
@@ -8850,7 +8850,7 @@
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  [ -122.6581064,49.1220496 ]
+       "coordinates":  [ -122.6582236,49.1209898 ]
     },
     "properties": {
     "OPERATOR_NAME":"Langley Seniors Village 3 LLP",
@@ -9140,7 +9140,7 @@
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  [ -122.9327115,49.2065162 ]
+       "coordinates":  [ -122.9330402,49.2066339 ]
     },
     "properties": {
     "OPERATOR_NAME":"Pioneer Community Living Association",
@@ -9459,7 +9459,7 @@
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  [ -123.1557689,49.261527 ]
+       "coordinates":  [ -123.1558023,49.261654 ]
     },
     "properties": {
     "OPERATOR_NAME":"Origin Tapestry Arbutus Walk",
@@ -9830,6 +9830,35 @@
     "SUPPORTIVE_RECOVERY":"Y",
     "SUPPORTIVE_RECOVERY_PUBLIC_UNITS":0,
     "SUPPORTIVE_RECOVERY_PRIVATE_PAY_UNITS":34
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -130.3089809,54.3128273 ]
+    },
+    "properties": {
+    "OPERATOR_NAME":"Wilfred Roger Beaudry",
+    "BUSINESS_NAME":"333 Trinity Men's Recovery House",
+    "TYPE":"Assisted Living",
+    "STREET_ADDRESS":"333 11 Ave E",
+    "CITY":"Prince Rupert",
+    "POSTAL_CODE":"V8J 2W4",
+    "BUSINESS_PHONE":"(250) 627-3093",
+    "INSPECTION_URL":"http://www.health.gov.bc.ca/assisted/mentalhealth_locator/index.php/displaycommunity/index",
+    "GOVERNING_ACT":"Community Care and Assisted Living Act",
+    "GOVERNING_REGULATION":"",
+    "HEALTH_AUTHORITY":"Northern Health",
+    "MENTAL_HEALTH":"N",
+    "MENTAL_HEALTH_PUBLIC_UNITS":null,
+    "MENTAL_HEALTH_PRIVATE_PAY_UNITS":null,
+    "SENIOR_ASSISTED_LIVING":"N",
+    "SENIOR_PUBLIC_UNITS":null,
+    "SENIOR_PRIVATE_PAY_UNITS":null,
+    "SUPPORTIVE_RECOVERY":"Y",
+    "SUPPORTIVE_RECOVERY_PUBLIC_UNITS":5,
+    "SUPPORTIVE_RECOVERY_PRIVATE_PAY_UNITS":0
     }
   },
   {
