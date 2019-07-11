@@ -446,7 +446,7 @@
     "OPERATOR_NAME":"608698 BC Ltd. dba Harmony Living for Seniors",
     "BUSINESS_NAME":"Harmony Living for Seniors - Kelowna",
     "TYPE":"Assisted Living",
-    "STREET_ADDRESS":"962 Laurier Avenue",
+    "STREET_ADDRESS":"962  Laurier Avenue",
     "CITY":"Kelowna",
     "POSTAL_CODE":"V1Y 6B1",
     "BUSINESS_PHONE":"(250) 861-3991",
@@ -663,35 +663,6 @@
     "SENIOR_ASSISTED_LIVING":"Y",
     "SENIOR_PUBLIC_UNITS":40,
     "SENIOR_PRIVATE_PAY_UNITS":0,
-    "SUPPORTIVE_RECOVERY":"N",
-    "SUPPORTIVE_RECOVERY_PUBLIC_UNITS":null,
-    "SUPPORTIVE_RECOVERY_PRIVATE_PAY_UNITS":null
-    }
-  },
-  {
-    "type": "Feature",
-    "geometry": {
-       "type": "Point",
-       "coordinates":  [ -122.9637421,49.0907511 ]
-    },
-    "properties": {
-    "OPERATOR_NAME":"Delta View Life Enrichment Centres Ltd.",
-    "BUSINESS_NAME":"Delta View Enriched Living",
-    "TYPE":"Assisted Living",
-    "STREET_ADDRESS":"9341 Burns Drive",
-    "CITY":"Delta",
-    "POSTAL_CODE":"V4K 3N3",
-    "BUSINESS_PHONE":"(604) 501-6700",
-    "INSPECTION_URL":"http://www.health.gov.bc.ca/assisted/locator/index.php/displaycommunity/index",
-    "GOVERNING_ACT":"Community Care and Assisted Living Act",
-    "GOVERNING_REGULATION":"",
-    "HEALTH_AUTHORITY":"Fraser Health",
-    "MENTAL_HEALTH":"N",
-    "MENTAL_HEALTH_PUBLIC_UNITS":null,
-    "MENTAL_HEALTH_PRIVATE_PAY_UNITS":null,
-    "SENIOR_ASSISTED_LIVING":"Y",
-    "SENIOR_PUBLIC_UNITS":0,
-    "SENIOR_PRIVATE_PAY_UNITS":4,
     "SUPPORTIVE_RECOVERY":"N",
     "SUPPORTIVE_RECOVERY_PUBLIC_UNITS":null,
     "SUPPORTIVE_RECOVERY_PRIVATE_PAY_UNITS":null
@@ -1548,7 +1519,7 @@
     "OPERATOR_NAME":"HCN-Revera Lessee (Fleetwood Villa) LP GP Inc. o/a Fleetwood Villa",
     "BUSINESS_NAME":"Fleetwood Villa",
     "TYPE":"Assisted Living",
-    "STREET_ADDRESS":"16028 83rd Avenue",
+    "STREET_ADDRESS":"16028  83rd Avenue",
     "CITY":"Surrey",
     "POSTAL_CODE":"V4N 0N2",
     "BUSINESS_PHONE":"(604) 590-2889",
@@ -2824,7 +2795,7 @@
     "OPERATOR_NAME":"Northern Health Authority",
     "BUSINESS_NAME":"Heritage Manor II",
     "TYPE":"Assisted Living",
-    "STREET_ADDRESS":"9824 106th Avenue",
+    "STREET_ADDRESS":"9824  106th Avenue",
     "CITY":"Fort Saint John",
     "POSTAL_CODE":"V1J 2N9",
     "BUSINESS_PHONE":"(250) 787-2376",
@@ -2966,7 +2937,7 @@
        "coordinates":  [ -122.7811519,49.259316 ]
     },
     "properties": {
-    "OPERATOR_NAME":"The Royale West Coast LP dba Mayfair Terrace Retirement Residence",
+    "OPERATOR_NAME":"The Royale West Coast LP  dba Mayfair Terrace Retirement Residence",
     "BUSINESS_NAME":"Mayfair Terrace Retirement Residence",
     "TYPE":"Assisted Living",
     "STREET_ADDRESS":"2267 Kelly Avenue",
@@ -3688,13 +3659,13 @@
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  [ -123.1539384,49.702788 ]
+       "coordinates":  [ -123.1558333,49.6980556 ]
     },
     "properties": {
     "OPERATOR_NAME":"Shannon Falls Retirement Residence Partnership",
     "BUSINESS_NAME":"Shannon Falls Retirement Residence",
     "TYPE":"Assisted Living",
-    "STREET_ADDRESS":"114 - 38225 Third Avenue",
+    "STREET_ADDRESS":"114 - 38225third Avenue",
     "CITY":"Squamish",
     "POSTAL_CODE":"V8B 0S2",
     "BUSINESS_PHONE":"(604) 848-2000",
@@ -4477,7 +4448,7 @@
     "OPERATOR_NAME":"Strive Living Society",
     "BUSINESS_NAME":"Freedom Place",
     "TYPE":"Assisted Living",
-    "STREET_ADDRESS":"10342 148th Street",
+    "STREET_ADDRESS":"10342  148th Street",
     "CITY":"Surrey",
     "POSTAL_CODE":"V3R 3X3",
     "BUSINESS_PHONE":"(604) 634-3300",
@@ -4506,7 +4477,7 @@
     "OPERATOR_NAME":"Wagner Hills Farm Society",
     "BUSINESS_NAME":"Wagner Hills Farm",
     "TYPE":"Assisted Living",
-    "STREET_ADDRESS":"8061 264th Street",
+    "STREET_ADDRESS":"8061  264th Street",
     "CITY":"Langley",
     "POSTAL_CODE":"V1M 3M3",
     "BUSINESS_PHONE":"(604) 856-9432",
@@ -4593,7 +4564,7 @@
     "OPERATOR_NAME":"Dawson Creek Society for Community Living",
     "BUSINESS_NAME":"Northview",
     "TYPE":"Assisted Living",
-    "STREET_ADDRESS":"1125 - 90th Avenue",
+    "STREET_ADDRESS":"1125 -  90th Avenue",
     "CITY":"Dawson Creek",
     "POSTAL_CODE":"V1G 5A3",
     "BUSINESS_PHONE":"(250) 719-0072",
@@ -4825,7 +4796,7 @@
     "OPERATOR_NAME":"Harrison Pointe Inc.",
     "BUSINESS_NAME":"Harrison Pointe",
     "TYPE":"Assisted Living",
-    "STREET_ADDRESS":"21616 52nd Avenue",
+    "STREET_ADDRESS":"21616  52nd Avenue",
     "CITY":"Langley",
     "POSTAL_CODE":"V2Y 1L7",
     "BUSINESS_PHONE":"(604) 530-1101",
@@ -4881,7 +4852,7 @@
     },
     "properties": {
     "OPERATOR_NAME":"Turning Points Collaborative Society",
-    "BUSINESS_NAME":"Howard House Addictions Recovery Program",
+    "BUSINESS_NAME":"Howard House Addictions Recovery  Program",
     "TYPE":"Assisted Living",
     "STREET_ADDRESS":"2307-43rd St.",
     "CITY":"Vernon",
@@ -5257,7 +5228,7 @@
        "coordinates":  [ -122.7128453,49.1151396 ]
     },
     "properties": {
-    "OPERATOR_NAME":"Maria Rosario de Vera Martinez (Rose)",
+    "OPERATOR_NAME":"Maria Rosario de Vera Martinez  (Rose)",
     "BUSINESS_NAME":"Clover Heights Retirement Home",
     "TYPE":"Assisted Living",
     "STREET_ADDRESS":"6209 - 184th Street",
@@ -5292,7 +5263,7 @@
     "STREET_ADDRESS":"13516 80th Ave",
     "CITY":"Surrey",
     "POSTAL_CODE":"V8W 3C1",
-    "BUSINESS_PHONE":"(778) 836-6504",
+    "BUSINESS_PHONE":"(778) 885-4369",
     "INSPECTION_URL":"http://www.health.gov.bc.ca/assisted/mentalhealth_locator/index.php/displaycommunity/index",
     "GOVERNING_ACT":"Community Care and Assisted Living Act",
     "GOVERNING_REGULATION":"",
@@ -5321,7 +5292,7 @@
     "STREET_ADDRESS":"13358 78A Ave",
     "CITY":"Surrey",
     "POSTAL_CODE":"V8W 7B7",
-    "BUSINESS_PHONE":"(778) 836-6504",
+    "BUSINESS_PHONE":"(778) 885-4369",
     "INSPECTION_URL":"http://www.health.gov.bc.ca/assisted/mentalhealth_locator/index.php/displaycommunity/index",
     "GOVERNING_ACT":"Community Care and Assisted Living Act",
     "GOVERNING_REGULATION":"",
@@ -5350,7 +5321,7 @@
     "STREET_ADDRESS":"13519 80th Ave",
     "CITY":"Surrey",
     "POSTAL_CODE":"V3W 3C2",
-    "BUSINESS_PHONE":"(778) 836-6504",
+    "BUSINESS_PHONE":"(778) 885-4369",
     "INSPECTION_URL":"http://www.health.gov.bc.ca/assisted/mentalhealth_locator/index.php/displaycommunity/index",
     "GOVERNING_ACT":"Community Care and Assisted Living Act",
     "GOVERNING_REGULATION":"",
@@ -8966,6 +8937,35 @@
     "type": "Feature",
     "geometry": {
        "type": "Point",
+       "coordinates":  [ -123.4194668,48.4533075 ]
+    },
+    "properties": {
+    "OPERATOR_NAME":"Saanich Senior Living Inc.",
+    "BUSINESS_NAME":"Amica on the Gorge",
+    "TYPE":"Assisted Living",
+    "STREET_ADDRESS":"994 Gorge Road W",
+    "CITY":"Victoria",
+    "POSTAL_CODE":"V9A 1P2",
+    "BUSINESS_PHONE":"250-220-8000",
+    "INSPECTION_URL":"http://www.health.gov.bc.ca/assisted/locator/index.php/displaycommunity/index",
+    "GOVERNING_ACT":"Community Care and Assisted Living Act",
+    "GOVERNING_REGULATION":"",
+    "HEALTH_AUTHORITY":"Island Health",
+    "MENTAL_HEALTH":"N",
+    "MENTAL_HEALTH_PUBLIC_UNITS":null,
+    "MENTAL_HEALTH_PRIVATE_PAY_UNITS":null,
+    "SENIOR_ASSISTED_LIVING":"Y",
+    "SENIOR_PUBLIC_UNITS":0,
+    "SENIOR_PRIVATE_PAY_UNITS":91,
+    "SUPPORTIVE_RECOVERY":"N",
+    "SUPPORTIVE_RECOVERY_PUBLIC_UNITS":null,
+    "SUPPORTIVE_RECOVERY_PRIVATE_PAY_UNITS":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
        "coordinates":  [ -122.8614008,49.1681444 ]
     },
     "properties": {
@@ -9076,35 +9076,6 @@
     "SUPPORTIVE_RECOVERY":"Y",
     "SUPPORTIVE_RECOVERY_PUBLIC_UNITS":0,
     "SUPPORTIVE_RECOVERY_PRIVATE_PAY_UNITS":4
-    }
-  },
-  {
-    "type": "Feature",
-    "geometry": {
-       "type": "Point",
-       "coordinates":  [ -123.2352653,49.2545898 ]
-    },
-    "properties": {
-    "OPERATOR_NAME":"Origin Tapestry Wesbrook Village",
-    "BUSINESS_NAME":"Tapestry at Wesbrook Village",
-    "TYPE":"Assisted Living",
-    "STREET_ADDRESS":"3338 Wesbrook Mall",
-    "CITY":"Vancouver",
-    "POSTAL_CODE":"V6S 0A6",
-    "BUSINESS_PHONE":"(604) 225-5000",
-    "INSPECTION_URL":"http://www.health.gov.bc.ca/assisted/locator/index.php/displaycommunity/index",
-    "GOVERNING_ACT":"Community Care and Assisted Living Act",
-    "GOVERNING_REGULATION":"",
-    "HEALTH_AUTHORITY":"Vancouver Coastal",
-    "MENTAL_HEALTH":"N",
-    "MENTAL_HEALTH_PUBLIC_UNITS":null,
-    "MENTAL_HEALTH_PRIVATE_PAY_UNITS":null,
-    "SENIOR_ASSISTED_LIVING":"Y",
-    "SENIOR_PUBLIC_UNITS":0,
-    "SENIOR_PRIVATE_PAY_UNITS":35,
-    "SUPPORTIVE_RECOVERY":"N",
-    "SUPPORTIVE_RECOVERY_PUBLIC_UNITS":null,
-    "SUPPORTIVE_RECOVERY_PRIVATE_PAY_UNITS":null
     }
   },
   {
@@ -9685,6 +9656,35 @@
     "SUPPORTIVE_RECOVERY":"Y",
     "SUPPORTIVE_RECOVERY_PUBLIC_UNITS":0,
     "SUPPORTIVE_RECOVERY_PRIVATE_PAY_UNITS":34
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.8472991,49.1265816 ]
+    },
+    "properties": {
+    "OPERATOR_NAME":"1058016 BC LTD",
+    "BUSINESS_NAME":"Acorn Recovery Living",
+    "TYPE":"Assisted Living",
+    "STREET_ADDRESS":"6817 135A Street",
+    "CITY":"Surrey",
+    "POSTAL_CODE":"V3W 4X2",
+    "BUSINESS_PHONE":"250-552-1552",
+    "INSPECTION_URL":"http://www.health.gov.bc.ca/assisted/mentalhealth_locator/index.php/displaycommunity/index",
+    "GOVERNING_ACT":"Community Care and Assisted Living Act",
+    "GOVERNING_REGULATION":"",
+    "HEALTH_AUTHORITY":"Fraser Health",
+    "MENTAL_HEALTH":"N",
+    "MENTAL_HEALTH_PUBLIC_UNITS":null,
+    "MENTAL_HEALTH_PRIVATE_PAY_UNITS":null,
+    "SENIOR_ASSISTED_LIVING":"N",
+    "SENIOR_PUBLIC_UNITS":null,
+    "SENIOR_PRIVATE_PAY_UNITS":null,
+    "SUPPORTIVE_RECOVERY":"Y",
+    "SUPPORTIVE_RECOVERY_PUBLIC_UNITS":0,
+    "SUPPORTIVE_RECOVERY_PRIVATE_PAY_UNITS":8
     }
   },
   {
