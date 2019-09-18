@@ -272,7 +272,7 @@
     "OPERATOR_NAME":"Chartwell Master Care LP (Chartwell Carrington Place)",
     "BUSINESS_NAME":"Carrington Place",
     "TYPE":"Assisted Living",
-    "STREET_ADDRESS":"4651 - 4751 - 23rd Street",
+    "STREET_ADDRESS":"4651  - 4751  23rd Street",
     "CITY":"Vernon",
     "POSTAL_CODE":"V1T 4K7",
     "BUSINESS_PHONE":"(250) 545-5704",
@@ -3607,7 +3607,7 @@
     "OPERATOR_NAME":"Shannon Falls Retirement Residence Partnership",
     "BUSINESS_NAME":"Shannon Falls Retirement Residence",
     "TYPE":"Assisted Living",
-    "STREET_ADDRESS":"114 - 38225third Avenue",
+    "STREET_ADDRESS":"114 - 38225 Third Avenue",
     "CITY":"Squamish",
     "POSTAL_CODE":"V8B 0S2",
     "BUSINESS_PHONE":"(604) 848-2000",
@@ -6907,7 +6907,7 @@
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  [ -122.848434,49.1266763 ]
+       "coordinates":  [ -122.8473024,49.1267349 ]
     },
     "properties": {
     "OPERATOR_NAME":"John Volken Academy Society",
@@ -7377,7 +7377,7 @@
     "OPERATOR_NAME":"Freedom House Recovery Society",
     "BUSINESS_NAME":"Freedom House 13755 - 105 Ave",
     "TYPE":"Assisted Living",
-    "STREET_ADDRESS":"13755-105 Ave",
+    "STREET_ADDRESS":"13755 -105 Ave",
     "CITY":"Surrey",
     "POSTAL_CODE":"V3T 2A1",
     "BUSINESS_PHONE":"(604) 970-2956",
@@ -8595,7 +8595,7 @@
     "OPERATOR_NAME":"Langley Seniors Village 3 LLP",
     "BUSINESS_NAME":"Langley Seniors Village",
     "TYPE":"Assisted Living",
-    "STREET_ADDRESS":"20363-65th Ave",
+    "STREET_ADDRESS":"20363 - 65th Ave",
     "CITY":"Langley",
     "POSTAL_CODE":"V2Y 3E3",
     "BUSINESS_PHONE":"(604) 539-9934",
@@ -8995,6 +8995,35 @@
     "type": "Feature",
     "geometry": {
        "type": "Point",
+       "coordinates":  [ -123.2352653,49.2545898 ]
+    },
+    "properties": {
+    "OPERATOR_NAME":"Origin Tapestry Wesbrook Village",
+    "BUSINESS_NAME":"Tapestry at Wesbrook Village",
+    "TYPE":"Assisted Living",
+    "STREET_ADDRESS":"3338 Wesbrook Mall",
+    "CITY":"Vancouver",
+    "POSTAL_CODE":"V6S 0A6",
+    "BUSINESS_PHONE":"(604) 225-5000",
+    "INSPECTION_URL":"http://www.health.gov.bc.ca/assisted/locator/index.php/displaycommunity/index",
+    "GOVERNING_ACT":"Community Care and Assisted Living Act",
+    "GOVERNING_REGULATION":"",
+    "HEALTH_AUTHORITY":"Vancouver Coastal",
+    "MENTAL_HEALTH":"N",
+    "MENTAL_HEALTH_PUBLIC_UNITS":null,
+    "MENTAL_HEALTH_PRIVATE_PAY_UNITS":null,
+    "SENIOR_ASSISTED_LIVING":"Y",
+    "SENIOR_PUBLIC_UNITS":0,
+    "SENIOR_PRIVATE_PAY_UNITS":35,
+    "SUPPORTIVE_RECOVERY":"N",
+    "SUPPORTIVE_RECOVERY_PUBLIC_UNITS":null,
+    "SUPPORTIVE_RECOVERY_PRIVATE_PAY_UNITS":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
        "coordinates":  [ -119.2650755,50.2745479 ]
     },
     "properties": {
@@ -9062,7 +9091,7 @@
     "STREET_ADDRESS":"9889 140 St",
     "CITY":"Surrey",
     "POSTAL_CODE":"V3T 4M4",
-    "BUSINESS_PHONE":"",
+    "BUSINESS_PHONE":"778-316-2625",
     "INSPECTION_URL":"http://www.health.gov.bc.ca/assisted/mentalhealth_locator/index.php/displaycommunity/index",
     "GOVERNING_ACT":"Community Care and Assisted Living Act",
     "GOVERNING_REGULATION":"",
@@ -9091,7 +9120,7 @@
     "STREET_ADDRESS":"9889 140 St",
     "CITY":"Surrey",
     "POSTAL_CODE":"V3T 4M4",
-    "BUSINESS_PHONE":"",
+    "BUSINESS_PHONE":"778-316-2625",
     "INSPECTION_URL":"http://www.health.gov.bc.ca/assisted/mentalhealth_locator/index.php/displaycommunity/index",
     "GOVERNING_ACT":"Community Care and Assisted Living Act",
     "GOVERNING_REGULATION":"",
@@ -9247,6 +9276,35 @@
     "SENIOR_ASSISTED_LIVING":"Y",
     "SENIOR_PUBLIC_UNITS":40,
     "SENIOR_PRIVATE_PAY_UNITS":10,
+    "SUPPORTIVE_RECOVERY":"N",
+    "SUPPORTIVE_RECOVERY_PUBLIC_UNITS":null,
+    "SUPPORTIVE_RECOVERY_PRIVATE_PAY_UNITS":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -123.1557689,49.261527 ]
+    },
+    "properties": {
+    "OPERATOR_NAME":"Origin Tapestry Arbutus Walk",
+    "BUSINESS_NAME":"Tapestry at Arbutus Walk",
+    "TYPE":"Assisted Living",
+    "STREET_ADDRESS":"2799 Yew Street",
+    "CITY":"Vancouver",
+    "POSTAL_CODE":"V6K 4W2",
+    "BUSINESS_PHONE":"(604) 736-1640",
+    "INSPECTION_URL":"http://www.health.gov.bc.ca/assisted/locator/index.php/displaycommunity/index",
+    "GOVERNING_ACT":"Community Care and Assisted Living Act",
+    "GOVERNING_REGULATION":"",
+    "HEALTH_AUTHORITY":"Vancouver Coastal",
+    "MENTAL_HEALTH":"N",
+    "MENTAL_HEALTH_PUBLIC_UNITS":null,
+    "MENTAL_HEALTH_PRIVATE_PAY_UNITS":null,
+    "SENIOR_ASSISTED_LIVING":"Y",
+    "SENIOR_PUBLIC_UNITS":0,
+    "SENIOR_PRIVATE_PAY_UNITS":45,
     "SUPPORTIVE_RECOVERY":"N",
     "SUPPORTIVE_RECOVERY_PUBLIC_UNITS":null,
     "SUPPORTIVE_RECOVERY_PRIVATE_PAY_UNITS":null
@@ -9873,8 +9931,8 @@
     "TYPE":"Assisted Living",
     "STREET_ADDRESS":"9889 140 St",
     "CITY":"Surrey",
-    "POSTAL_CODE":"",
-    "BUSINESS_PHONE":"",
+    "POSTAL_CODE":"V3T 4M4",
+    "BUSINESS_PHONE":"778-316-2625",
     "INSPECTION_URL":"http://www.health.gov.bc.ca/assisted/mentalhealth_locator/index.php/displaycommunity/index",
     "GOVERNING_ACT":"Community Care and Assisted Living Act",
     "GOVERNING_REGULATION":"",
@@ -9943,6 +10001,35 @@
     "SENIOR_ASSISTED_LIVING":"N",
     "SENIOR_PUBLIC_UNITS":null,
     "SENIOR_PRIVATE_PAY_UNITS":null,
+    "SUPPORTIVE_RECOVERY":"N",
+    "SUPPORTIVE_RECOVERY_PUBLIC_UNITS":null,
+    "SUPPORTIVE_RECOVERY_PRIVATE_PAY_UNITS":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.672952,49.0732585 ]
+    },
+    "properties": {
+    "OPERATOR_NAME":"Verve Senior Living",
+    "BUSINESS_NAME":"The Village Langley",
+    "TYPE":"Assisted Living",
+    "STREET_ADDRESS":"3920 198 Street",
+    "CITY":"Langley",
+    "POSTAL_CODE":"V3A 1E1",
+    "BUSINESS_PHONE":"(604) 427-3755",
+    "INSPECTION_URL":"http://www.health.gov.bc.ca/assisted/locator/index.php/displaycommunity/index",
+    "GOVERNING_ACT":"Community Care and Assisted Living Act",
+    "GOVERNING_REGULATION":"",
+    "HEALTH_AUTHORITY":"Fraser Health",
+    "MENTAL_HEALTH":"N",
+    "MENTAL_HEALTH_PUBLIC_UNITS":null,
+    "MENTAL_HEALTH_PRIVATE_PAY_UNITS":null,
+    "SENIOR_ASSISTED_LIVING":"Y",
+    "SENIOR_PUBLIC_UNITS":0,
+    "SENIOR_PRIVATE_PAY_UNITS":52,
     "SUPPORTIVE_RECOVERY":"N",
     "SUPPORTIVE_RECOVERY_PUBLIC_UNITS":null,
     "SUPPORTIVE_RECOVERY_PRIVATE_PAY_UNITS":null
