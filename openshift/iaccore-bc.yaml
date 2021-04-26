@@ -1,0 +1,30 @@
+apiVersion: build.openshift.io/v1
+kind: BuildConfig
+metadata:
+  labels:
+    app: smk-iac-core
+  name: iac-core
+spec:
+  output:
+    to:
+      kind: ImageStreamTag
+      name: iac-core:latest
+  postCommit: {}
+  resources: {}
+  runPolicy: Serial
+  source:
+    dockerfile: |-
+      FROM docker-remote.artifacts.developer.gov.bc.ca/caddy:builder
+      USER root
+      ARG TELEMETRY=${ENABLE_TELEMETRY:-"false"}
+      ARG VERSION='1.0.3'
+      RUN apk add --no-cache --virtual .dev bash \
+       && wget -O - https://raw.githubusercontent.com/abiosoft/caddy-docker/${VERSION}/builder/builder.sh | bash \
+       && apk del --purge .dev
+    type: Dockerfile
+  strategy:
+    dockerStrategy:
+      pullSecret:
+        name: artifactory-creds
+    type: Docker
+  triggers: []

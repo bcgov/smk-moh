@@ -1,0 +1,45 @@
+apiVersion: build.openshift.io/v1
+kind: BuildConfig
+metadata:
+  labels:
+    app: smk-moh-prod
+  name: smk-moh-prod-bc
+spec:
+  output:
+    to:
+      kind: ImageStreamTag
+      name: smk-moh-prod:latest
+  postCommit: {}
+  resources: {}
+  runPolicy: Serial
+  triggers:
+  - type: GitHub
+    github:
+      secretReference:
+        name: github-smk-moh-prod-webhook-key
+  source:
+    dockerfile: |-
+      FROM docker-remote.artifacts.developer.gov.bc.ca/alpine:edge
+
+      RUN apk update \
+          && apk --no-cache add git openssh-client \
+          && apk --no-cache add --virtual devs tar curl
+
+      WORKDIR /app
+
+      RUN git clone -b master https://github.com/bcgov/smk-moh.git /app/smk/smk-moh
+
+      RUN adduser -S app
+
+      RUN chown -R app:0 /app && chmod -R 770 /app
+
+      RUN apk del --purge devs  
+
+      USER app
+
+    type: Dockerfile
+  strategy:
+    dockerStrategy:
+      pullSecret:
+        name: artifactory-creds
+    type: Docker
