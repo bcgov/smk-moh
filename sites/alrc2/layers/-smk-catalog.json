@@ -1,0 +1,378 @@
+{
+    "layers": [
+        {
+            "title": "Assisted Living",
+            "dataUrl": "http://openmaps.gov.bc.ca/geo/ows?service=WFS&version=2.0&request=GetFeature&typeName=pub:WHSE_IMAGERY_AND_BASE_MAPS.GSR_ASSISTED_LIVING_LOCS_SV&outputFormat=application/json&propertyName=OPERATOR_NAME,BUSINESS_NAME,STREET_ADDRESS,LOCALITY,POSTAL_CODE,BUSINESS_PHONE,TYPE,MENTAL_HEALTH_IND,MENTAL_HLTH_PRIV_PAY_UNITS,MENTAL_HLTH_PUBLIC_UNITS,SENIOR_ASSISTED_LIVING_IND,SENIOR_PRIVATE_PAY_UNITS,SENIOR_PUBLIC_UNITS,SUPPRTV_RCVRY_IND,SUPPRTV_RCVRY_PRIV_PAY_UNITS,SUPPRTV_RCVRY_PUBLIC_UNITS,INSPECTION_URL,GOVERNING_ACT,GOVERNING_REGULATION,HEALTH_AUTHORITY,LATITUDE,LONGITUDE,SHAPE&srsname=EPSG:4326",
+            "id": "assisted-living",
+            "attributes": [
+                {
+                    "id": "operator-name",
+                    "name": "OPERATOR_NAME",
+                    "title": "OPERATOR_NAME",
+                    "visible": true
+                },
+                {
+                    "id": "business-name",
+                    "name": "BUSINESS_NAME",
+                    "title": "BUSINESS_NAME",
+                    "visible": true
+                },
+                {
+                    "id": "street-address",
+                    "name": "STREET_ADDRESS",
+                    "title": "STREET_ADDRESS",
+                    "visible": true
+                },
+                {
+                    "id": "locality",
+                    "name": "LOCALITY",
+                    "title": "LOCALITY",
+                    "visible": true
+                },
+                {
+                    "id": "postal-code",
+                    "name": "POSTAL_CODE",
+                    "title": "POSTAL_CODE",
+                    "visible": true
+                },
+                {
+                    "id": "business-phone",
+                    "name": "BUSINESS_PHONE",
+                    "title": "BUSINESS_PHONE",
+                    "visible": true
+                },
+                {
+                    "id": "type",
+                    "name": "TYPE",
+                    "title": "TYPE",
+                    "visible": true
+                },
+                {
+                    "id": "mental-health-ind",
+                    "name": "MENTAL_HEALTH_IND",
+                    "title": "MENTAL_HEALTH_IND",
+                    "visible": true
+                },
+                {
+                    "id": "mental-hlth-priv-pay-units",
+                    "name": "MENTAL_HLTH_PRIV_PAY_UNITS",
+                    "title": "MENTAL_HLTH_PRIV_PAY_UNITS",
+                    "visible": true
+                },
+                {
+                    "id": "mental-hlth-public-units",
+                    "name": "MENTAL_HLTH_PUBLIC_UNITS",
+                    "title": "MENTAL_HLTH_PUBLIC_UNITS",
+                    "visible": true
+                },
+                {
+                    "id": "senior-assisted-living-ind",
+                    "name": "SENIOR_ASSISTED_LIVING_IND",
+                    "title": "SENIOR_ASSISTED_LIVING_IND",
+                    "visible": true
+                },
+                {
+                    "id": "senior-private-pay-units",
+                    "name": "SENIOR_PRIVATE_PAY_UNITS",
+                    "title": "SENIOR_PRIVATE_PAY_UNITS",
+                    "visible": true
+                },
+                {
+                    "id": "senior-public-units",
+                    "name": "SENIOR_PUBLIC_UNITS",
+                    "title": "SENIOR_PUBLIC_UNITS",
+                    "visible": true
+                },
+                {
+                    "id": "supprtv-rcvry-ind",
+                    "name": "SUPPRTV_RCVRY_IND",
+                    "title": "SUPPRTV_RCVRY_IND",
+                    "visible": true
+                },
+                {
+                    "id": "supprtv-rcvry-priv-pay-units",
+                    "name": "SUPPRTV_RCVRY_PRIV_PAY_UNITS",
+                    "title": "SUPPRTV_RCVRY_PRIV_PAY_UNITS",
+                    "visible": true
+                },
+                {
+                    "id": "supprtv-rcvry-public-units",
+                    "name": "SUPPRTV_RCVRY_PUBLIC_UNITS",
+                    "title": "SUPPRTV_RCVRY_PUBLIC_UNITS",
+                    "visible": true
+                },
+                {
+                    "id": "inspection-url",
+                    "name": "INSPECTION_URL",
+                    "title": "INSPECTION_URL",
+                    "visible": true
+                },
+                {
+                    "id": "governing-act",
+                    "name": "GOVERNING_ACT",
+                    "title": "GOVERNING_ACT",
+                    "visible": true
+                },
+                {
+                    "id": "governing-regulation",
+                    "name": "GOVERNING_REGULATION",
+                    "title": "GOVERNING_REGULATION",
+                    "visible": true
+                },
+                {
+                    "id": "health-authority",
+                    "name": "HEALTH_AUTHORITY",
+                    "title": "HEALTH_AUTHORITY",
+                    "visible": true
+                },
+                {
+                    "id": "latitude",
+                    "name": "LATITUDE",
+                    "title": "LATITUDE",
+                    "visible": true
+                },
+                {
+                    "id": "longitude",
+                    "name": "LONGITUDE",
+                    "title": "LONGITUDE",
+                    "visible": true
+                },
+                {
+                    "id": "custodian-org-description",
+                    "name": "CUSTODIAN_ORG_DESCRIPTION",
+                    "title": "CUSTODIAN_ORG_DESCRIPTION",
+                    "visible": true
+                },
+                {
+                    "id": "business-category-class",
+                    "name": "BUSINESS_CATEGORY_CLASS",
+                    "title": "BUSINESS_CATEGORY_CLASS",
+                    "visible": true
+                },
+                {
+                    "id": "business-category-description",
+                    "name": "BUSINESS_CATEGORY_DESCRIPTION",
+                    "title": "BUSINESS_CATEGORY_DESCRIPTION",
+                    "visible": true
+                },
+                {
+                    "id": "occupant-type-description",
+                    "name": "OCCUPANT_TYPE_DESCRIPTION",
+                    "title": "OCCUPANT_TYPE_DESCRIPTION",
+                    "visible": true
+                },
+                {
+                    "id": "source-data-id",
+                    "name": "SOURCE_DATA_ID",
+                    "title": "SOURCE_DATA_ID",
+                    "visible": true
+                },
+                {
+                    "id": "sequence-id",
+                    "name": "SEQUENCE_ID",
+                    "title": "SEQUENCE_ID",
+                    "visible": true
+                },
+                {
+                    "id": "bbox",
+                    "name": "bbox",
+                    "title": "bbox",
+                    "visible": true
+                }
+            ]
+        },
+        {
+            "title": "Residential Care",
+            "dataUrl": "http://openmaps.gov.bc.ca/geo/ows?service=WFS&version=2.0&request=GetFeature&typeName=pub:WHSE_IMAGERY_AND_BASE_MAPS.GSR_RESIDENTIAL_CARE_LOCS_SV&outputFormat=application/json&propertyName=OPERATOR_NAME,BUSINESS_NAME,STREET_ADDRESS,LOCALITY,POSTAL_CODE,BUSINESS_PHONE,TYPE,MENTAL_HEALTH_IND,MENTAL_HEALTH_MAX_CAP,HOSPICE_IND,HOSPICE_MAX_CAP,SUBSTANCE_USE_IND,SUBSTANCE_USE_MAX_CAP,LONG_TERM_CARE_IND,LONG_TERM_CARE_MAX_CAP,COMMUNITY_LIVING_IND,COMMUNITY_LIVING_MAX_CAP,ACQUIRED_BRAIN_INJURY_IND,ACQUIRED_BRAIN_INJURY_MAX_CAP,INSPECTION_URL,GOVERNING_ACT,GOVERNING_REGULATION,HEALTH_AUTHORITY,LATITUDE,LONGITUDE,SHAPE&srsname=EPSG:4326",
+            "id": "residential-care",
+            "attributes": [
+                {
+                    "id": "operator-name",
+                    "name": "OPERATOR_NAME",
+                    "title": "OPERATOR_NAME",
+                    "visible": true
+                },
+                {
+                    "id": "business-name",
+                    "name": "BUSINESS_NAME",
+                    "title": "BUSINESS_NAME",
+                    "visible": true
+                },
+                {
+                    "id": "street-address",
+                    "name": "STREET_ADDRESS",
+                    "title": "STREET_ADDRESS",
+                    "visible": true
+                },
+                {
+                    "id": "locality",
+                    "name": "LOCALITY",
+                    "title": "LOCALITY",
+                    "visible": true
+                },
+                {
+                    "id": "postal-code",
+                    "name": "POSTAL_CODE",
+                    "title": "POSTAL_CODE",
+                    "visible": true
+                },
+                {
+                    "id": "business-phone",
+                    "name": "BUSINESS_PHONE",
+                    "title": "BUSINESS_PHONE",
+                    "visible": true
+                },
+                {
+                    "id": "type",
+                    "name": "TYPE",
+                    "title": "TYPE",
+                    "visible": true
+                },
+                {
+                    "id": "mental-health-ind",
+                    "name": "MENTAL_HEALTH_IND",
+                    "title": "MENTAL_HEALTH_IND",
+                    "visible": true
+                },
+                {
+                    "id": "mental-health-max-cap",
+                    "name": "MENTAL_HEALTH_MAX_CAP",
+                    "title": "MENTAL_HEALTH_MAX_CAP",
+                    "visible": true
+                },
+                {
+                    "id": "hospice-ind",
+                    "name": "HOSPICE_IND",
+                    "title": "HOSPICE_IND",
+                    "visible": true
+                },
+                {
+                    "id": "hospice-max-cap",
+                    "name": "HOSPICE_MAX_CAP",
+                    "title": "HOSPICE_MAX_CAP",
+                    "visible": true
+                },
+                {
+                    "id": "substance-use-ind",
+                    "name": "SUBSTANCE_USE_IND",
+                    "title": "SUBSTANCE_USE_IND",
+                    "visible": true
+                },
+                {
+                    "id": "substance-use-max-cap",
+                    "name": "SUBSTANCE_USE_MAX_CAP",
+                    "title": "SUBSTANCE_USE_MAX_CAP",
+                    "visible": true
+                },
+                {
+                    "id": "long-term-care-ind",
+                    "name": "LONG_TERM_CARE_IND",
+                    "title": "LONG_TERM_CARE_IND",
+                    "visible": true
+                },
+                {
+                    "id": "long-term-care-max-cap",
+                    "name": "LONG_TERM_CARE_MAX_CAP",
+                    "title": "LONG_TERM_CARE_MAX_CAP",
+                    "visible": true
+                },
+                {
+                    "id": "community-living-ind",
+                    "name": "COMMUNITY_LIVING_IND",
+                    "title": "COMMUNITY_LIVING_IND",
+                    "visible": true
+                },
+                {
+                    "id": "community-living-max-cap",
+                    "name": "COMMUNITY_LIVING_MAX_CAP",
+                    "title": "COMMUNITY_LIVING_MAX_CAP",
+                    "visible": true
+                },
+                {
+                    "id": "acquired-brain-injury-ind",
+                    "name": "ACQUIRED_BRAIN_INJURY_IND",
+                    "title": "ACQUIRED_BRAIN_INJURY_IND",
+                    "visible": true
+                },
+                {
+                    "id": "acquired-brain-injury-max-cap",
+                    "name": "ACQUIRED_BRAIN_INJURY_MAX_CAP",
+                    "title": "ACQUIRED_BRAIN_INJURY_MAX_CAP",
+                    "visible": true
+                },
+                {
+                    "id": "inspection-url",
+                    "name": "INSPECTION_URL",
+                    "title": "INSPECTION_URL",
+                    "visible": true
+                },
+                {
+                    "id": "governing-act",
+                    "name": "GOVERNING_ACT",
+                    "title": "GOVERNING_ACT",
+                    "visible": true
+                },
+                {
+                    "id": "governing-regulation",
+                    "name": "GOVERNING_REGULATION",
+                    "title": "GOVERNING_REGULATION",
+                    "visible": true
+                },
+                {
+                    "id": "health-authority",
+                    "name": "HEALTH_AUTHORITY",
+                    "title": "HEALTH_AUTHORITY",
+                    "visible": true
+                },
+                {
+                    "id": "latitude",
+                    "name": "LATITUDE",
+                    "title": "LATITUDE",
+                    "visible": true
+                },
+                {
+                    "id": "longitude",
+                    "name": "LONGITUDE",
+                    "title": "LONGITUDE",
+                    "visible": true
+                },
+                {
+                    "id": "custodian-org-description",
+                    "name": "CUSTODIAN_ORG_DESCRIPTION",
+                    "title": "CUSTODIAN_ORG_DESCRIPTION",
+                    "visible": true
+                },
+                {
+                    "id": "business-category-class",
+                    "name": "BUSINESS_CATEGORY_CLASS",
+                    "title": "BUSINESS_CATEGORY_CLASS",
+                    "visible": true
+                },
+                {
+                    "id": "business-category-description",
+                    "name": "BUSINESS_CATEGORY_DESCRIPTION",
+                    "title": "BUSINESS_CATEGORY_DESCRIPTION",
+                    "visible": true
+                },
+                {
+                    "id": "occupant-type-description",
+                    "name": "OCCUPANT_TYPE_DESCRIPTION",
+                    "title": "OCCUPANT_TYPE_DESCRIPTION",
+                    "visible": true
+                },
+                {
+                    "id": "sequence-id",
+                    "name": "SEQUENCE_ID",
+                    "title": "SEQUENCE_ID",
+                    "visible": true
+                },
+                {
+                    "id": "bbox",
+                    "name": "bbox",
+                    "title": "bbox",
+                    "visible": true
+                }
+            ]
+        }
+    ]
+}
