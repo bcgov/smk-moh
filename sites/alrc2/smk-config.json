@@ -29,6 +29,7 @@
             "opacity": 0.65,
             "minScale": null,
             "maxScale": null,
+            "popupTemplate": "<div>\n<div><h2>{{ feature.title }}</h2></div>\n<div>\n<table border=\"0\" width=\"100%\">\n\t<tbody>\n\t<tr>\n\t<td>{{ feature.properties['OPERATOR_NAME'] }}</td>\n\t</tr>\t\t\n\t<tr>\n\t<td>{{ feature.properties['STREET_ADDRESS'] }} {{ feature.properties['LOCALITY'] }}  {{ feature.properties['POSTAL_CODE'] }}</td>\n\t</tr>\n\t<tr>\n\t<td>{{ feature.properties['BUSINESS_PHONE'] }}</td>\n\t</tr>\t\n\n\t</tbody>\n</table>\n</div>\n<br>\n<div v-if=\"feature.properties['MENTAL_HEALTH_IND'] == 'Y'\" style=\"background: #8080801; margin-bottom: 2px;\">\n<table border=\"0\" width=\"100%\">\n\t<colgroup><col style=\"width:50%\">\n\t<col style=\"width:50%\">\n\t</colgroup>\n\t<tbody>\n\t<tr>\n\t<td colspan=\"2\"><b>Mental Health:</b> Yes</td>\n\t</tr>\n\t<tr>\n\t<td><b>Public Units:</b> {{ feature.properties['MENTAL_HLTH_PUBLIC_UNITS'] }}</td>\n\t<td><b>Private Pay Units:</b> {{ feature.properties['MENTAL_HLTH_PRIV_PAY_UNITS'] }}</td>\n\t</tr>\n\t</tbody>\n</table>\n</div>\n<div v-if=\"feature.properties['SENIOR_ASSISTED_LIVING_IND'] == 'Y'\" style=\"background: #8080801; margin-bottom: 2px;\">\n<table border=\"0\" width=\"100%\">\n\t<colgroup><col style=\"width:50%\">\n\t<col style=\"width:50%\">\n\t</colgroup>\n\t<tbody>\n\t<tr>\n\t<td colspan=\"2\"><b>Senior Assisted Living:</b> Yes</td>\n\t</tr>\n\t<tr>\n\t<td><b>Public Units:</b> {{ feature.properties['SENIOR_PUBLIC_UNITS'] }}</td>\n\t<td><b>Private Pay Units:</b> {{ feature.properties['SENIOR_PRIVATE_PAY_UNITS'] }}</td>\n\t</tr>\n\t</tbody>\n</table>\n</div>\n<div v-if=\"feature.properties['SUPPRTV_RCVRY_IND'] == 'Y'\" style=\"background: #8080801; margin-bottom: 2px;\">\n<table border=\"0\" width=\"100%\">\n\t<colgroup><col style=\"width:50%\">\n\t<col style=\"width:50%\">\n\t</colgroup>\n\t<tbody>\n\t<tr>\n\t<td colspan=\"2\"><b>Supportive Recovery:</b> Yes</td></tr>\n\t<tr>\n\t<td><b>Public Units:</b> {{ feature.properties['SUPPRTV_RCVRY_PUBLIC_UNITS'] }}</td>\n\t<td><b>Private Pay Units:</b> {{ feature.properties['SUPPRTV_RCVRY_PRIV_PAY_UNITS'] }}</td>\n\t</tr>\n\t</tbody>\n</table>\n</div>\n<br>\n<div v-if=\"feature.properties['INSPECTION_URL'] !== null\">\n      <a target=\"_blank\" v-bind:href=\"feature.properties['INSPECTION_URL']\">More Information</a>\n</div>\n\n<div><b>Type:</b> {{ feature.properties['TYPE'] }}</div>\n<div><b>Health Authority:</b> {{ feature.properties['HEALTH_AUTHORITY'] }}</div>\n</div>",
             "titleAttribute": "BUSINESS_NAME",
             "attributes": [
                 {
@@ -333,15 +334,15 @@
                                 ]
                             },
                             {
-                                "operator": "equals",
+                                "operator": "contains",
                                 "arguments": [
-                                    {
-                                        "operand": "parameter",
-                                        "id": "parameter-5"
-                                    },
                                     {
                                         "operand": "attribute",
                                         "name": "BUSINESS_NAME"
+                                    },
+                                    {
+                                        "operand": "parameter",
+                                        "id": "parameter-5"
                                     }
                                 ]
                             }
@@ -389,6 +390,7 @@
             "opacity": 0.65,
             "minScale": null,
             "maxScale": null,
+            "popupTemplate": "<div>\n<div><h2>{{ feature.title }}</h2></div>\n<div>\n<table border=\"0\" width=\"100%\">\n\t<tbody>\n\t<tr>\n\t<td>{{ feature.properties['OPERATOR_NAME'] }}</td>\n\t</tr>\t\n\t<tr>\n\t<td>{{ feature.properties['STREET_ADDRESS'] }} {{ feature.properties['LOCALITY'] }}  {{ feature.properties['POSTAL_CODE'] }}</td>\n\t</tr>\n\t<tr>\n\t<td>{{ feature.properties['BUSINESS_PHONE'] }}</td>\n\t</tr>\t\n\n\t</tbody>\n</table>\n</div>\n<br>\n<div v-if=\"feature.properties['MENTAL_HEALTH_IND'] == 'Y'\" style=\"background: #8080801; margin-bottom: 2px;\">\n<table border=\"0\" width=\"100%\">\n\t<colgroup><col style=\"width:50%\">\n\t<col style=\"width:50%\">\n\t</colgroup><tbody>\n\t<tr>\n\t\t<td><b>Mental Health:</b> Yes</td>\n\t\t<td><b>Max. Capacity:</b> {{ feature.properties['MENTAL_HEALTH_MAX_CAP'] }}</td>\n\t</tr>\n\t</tbody>\n</table>\t\n</div>\n<div v-if=\"feature.properties['HOSPICE_IND'] == 'Y'\" style=\"background: #8080801; margin-bottom: 2px;\">\n<table border=\"0\" width=\"100%\">\n\t<colgroup><col style=\"width:50%\">\n\t<col style=\"width:50%\">\n\t</colgroup><tbody>\n\t<tr>\n\t\t<td><b>Hospice:</b> Yes</td>\n\t\t<td><b>Max. Capacity:</b> {{ feature.properties['HOSPICE_MAX_CAP'] }}</td>\n\t</tr>\n\t</tbody>\n</table>\t\t\n</div>\n<div v-if=\"feature.properties['SUBSTANCE_USE_IND'] == 'Y'\" style=\"background: #8080801; margin-bottom: 2px;\">\n<table border=\"0\" width=\"100%\">\n\t<colgroup><col style=\"width:50%\">\n\t<col style=\"width:50%\">\n\t</colgroup><tbody>\n\t<tr>\n\t\t<td><b>Substance Use:</b> Yes</td>\n\t\t<td><b>Max. Capacity:</b> {{ feature.properties['SUBSTANCE_USE_MAX_CAP'] }}</td>\n\t</tr>\n\t</tbody>\n</table>\t\t\n</div>\n<div v-if=\"feature.properties['LONG_TERM_CARE_IND'] == 'Y'\" style=\"background: #8080801; margin-bottom: 2px;\">\n<table border=\"0\" width=\"100%\">\n\t<colgroup><col style=\"width:50%\">\n\t<col style=\"width:50%\">\n\t</colgroup><tbody>\n\t<tr>\n\t\t<td><b>Long Term Care:</b> Yes</td>\n\t\t<td><b>Max. Capacity:</b> {{ feature.properties['LONG_TERM_CARE_MAX_CAP'] }}</td>\n\t</tr>\n\t</tbody>\n</table>\t\t\n</div>\n<div v-if=\"feature.properties['COMMUNITY_LIVING_IND'] == 'Y'\" style=\"background: #8080801; margin-bottom: 2px;\">\n<table border=\"0\" width=\"100%\">\n\t<colgroup><col style=\"width:50%\">\n\t<col style=\"width:50%\">\n\t</colgroup><tbody>\n\t<tr>\n\t\t<td><b>Community Living:</b> Yes</td>\n\t\t<td><b>Max. Capacity:</b> {{ feature.properties['COMMUNITY_LIVING_MAX_CAP'] }}</td>\n\t</tr>\n\t</tbody>\n</table>\t\n</div>\n<div v-if=\"feature.properties['ACQUIRED_BRAIN_INJURY_IND'] == 'Y'\" style=\"background: #8080801; margin-bottom: 2px;\">\n<table border=\"0\" width=\"100%\">\n\t<colgroup><col style=\"width:50%\">\n\t<col style=\"width:50%\">\n\t</colgroup><tbody>\n\t<tr>\n\t\t<td><b>Acquired Brain Injury:</b> Yes</td>\n\t\t<td><b>Max. Capacity:</b> {{ feature.properties['ACQUIRED_BRAIN_INJURY_MAX_CAP'] }}</td>\n\t</tr>\n\t</tbody>\n</table>\t\t\n</div>\n<br>\n<div v-if=\"feature.properties['INSPECTION_URL'] !== null\">\n      <a target=\"_blank\" v-bind:href=\"feature.properties['INSPECTION_URL']\">Inspection Record</a>\n</div>\n\n<div><b>Type:</b> {{ feature.properties['TYPE'] }}</div>\n<div><b>Health Authority:</b> {{ feature.properties['HEALTH_AUTHORITY'] }}</div>\n</div>",
             "titleAttribute": "BUSINESS_NAME",
             "attributes": [
                 {
@@ -776,15 +778,15 @@
                                 ]
                             },
                             {
-                                "operator": "equals",
+                                "operator": "contains",
                                 "arguments": [
-                                    {
-                                        "operand": "parameter",
-                                        "id": "parameter-8"
-                                    },
                                     {
                                         "operand": "attribute",
                                         "name": "BUSINESS_NAME"
+                                    },
+                                    {
+                                        "operand": "parameter",
+                                        "id": "parameter-8"
                                     }
                                 ]
                             }
