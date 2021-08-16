@@ -896,7 +896,7 @@
                 "radiusUnit": false,
                 "nearBy": true
             },
-            "radius": 5,
+            "radius": 10,
             "radiusUnit": "px",
             "type": "identify",
             "enabled": true,
