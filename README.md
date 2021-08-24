@@ -37,6 +37,9 @@ For small-scale production deployment or development, docker container will do f
 ## Deploying as replicaSet to OpenShift
 ``` $ oc new-app caddy-app-template~https://github.com/bcgov/smk-moh.git```
 
+## Updated OCP4 Deployment Steps
+Builds and Deployment Templates are provided in the Openshift Dir located in the root of this repo
+
 ## License
 
     Copyright 2016-present Province of British Columbia
@@ -52,3 +55,6 @@ For small-scale production deployment or development, docker container will do f
     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
     See the License for the specific language governing permissions and
     limitations under the License.
+    
+    
+[![img](https://img.shields.io/badge/Lifecycle-Maturing-007EC6)](https://github.com/bcgov/repomountie/blob/master/doc/lifecycle-badges.md)

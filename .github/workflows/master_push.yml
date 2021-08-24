@@ -15,4 +15,3 @@ jobs:
     - name: Send Payload to openshift to trigger build
       run: |
         curl -H "Content-Type: application/json" -X POST -d @$GITHUB_EVENT_PATH ${{ secrets.PROD_WEBHOOK_URL }}
-
