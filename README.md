@@ -1,4 +1,6 @@
 # smk-moh
+![img](https://img.shields.io/badge/Lifecycle-Stable-97ca00)
+
 A Simple Map (replacement for DMF) for BC Ministry of Health 
 
 1st app will be ‘alrc’ for Assisted Living and Residential Care map.
