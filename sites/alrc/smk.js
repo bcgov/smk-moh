@@ -632,6 +632,7 @@ if ( skip ) return;
             { loader: "script", url: "lib/leaflet/esri-leaflet-2.3.2.js" },
             { loader: "script", url: "lib/leaflet/esri-leaflet-renderers-2.0.6.js" },
             { loader: "script", url: "lib/leaflet/esri-leaflet-legend-compat-src-2.0.1.js" },
+            { loader: "script", url: "lib/leaflet/esri-leaflet-vector-3.1.3.js" },
             { loader: "asset", url: "lib/leaflet/images/layers-2x.png" },
             { loader: "asset", url: "lib/leaflet/images/layers.png" },
             { loader: "asset", url: "lib/leaflet/images/marker-icon-2x.png" },
