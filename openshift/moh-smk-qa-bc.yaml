@@ -19,7 +19,7 @@ spec:
         name: github-smk-moh-qa-webhook-key
   source:
     dockerfile: |-
-      FROM docker-remote.artifacts.developer.gov.bc.ca/alpine:edge
+      FROM artifacts.developer.gov.bc.ca/docker-remote/alpine
 
       RUN apk update \
           && apk --no-cache add git openssh-client \

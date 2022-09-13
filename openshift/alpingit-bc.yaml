@@ -16,7 +16,7 @@ spec:
     dockerStrategy:
       from:
         kind: DockerImage
-        name: 'docker-remote.artifacts.developer.gov.bc.ca/alpine/git:latest'
+        name: artifacts.developer.gov.bc.ca/docker-remote/alpine
   postCommit: {}
   source:
     type: Git
